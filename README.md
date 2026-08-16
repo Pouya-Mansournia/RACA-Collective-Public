@@ -1,6 +1,9 @@
 # RACA-Collective
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21960745.svg)](https://doi.org/10.5281/zenodo.21960745)
+[![Tests](https://github.com/Pouya-Mansournia/RACA-Collective-Public/actions/workflows/tests.yml/badge.svg)](https://github.com/Pouya-Mansournia/RACA-Collective-Public/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.13%20%7C%203.14-blue.svg)](pyproject.toml)
 
 From Reasoning Allocation to Behavioral Specialization: Boundary Results in Multi-Robot Systems.
 
@@ -71,9 +74,39 @@ tests/
 reproducibility/  entry point for re-running the experiments and checks
 ```
 
+## Quick start
+
+Requires Python 3.13 or 3.14 (verified interpreters; `pyproject.toml` pins `>=3.13,<3.15`).
+
+```
+pip install -r requirements.txt   # exact-match numpy (2.5.1) for bit-for-bit reproduction
+python3 -m pytest tests/ -q       # run the test suite
+python3 analysis/build_summary_tables.py   # rebuild summary tables/figures from archived JSON
+```
+
+See `reproducibility/README.md` for the full install/verification notes and the exact command for every experiment phase.
+
 ## Reproducing the results
 
 See `reproducibility/README.md` for setup and the exact commands to re-run each phase's experiments and regenerate the summary tables. Each `experiments/phase_*/` directory contains its own run script(s) and the archived `results/`/`summary*.json` output that the reported numbers were computed from.
+
+## Citation
+
+A manuscript describing this work in full is in preparation; this repository will be updated with a citation once it is available. Until then, cite the software itself via `CITATION.cff` or the DOI badge above:
+
+```bibtex
+@software{mansournia_raca_collective,
+  author  = {Mansournia, Pouya},
+  title   = {RACA-Collective},
+  doi     = {10.5281/zenodo.21960745},
+  url     = {https://doi.org/10.5281/zenodo.21960745},
+  license = {MIT}
+}
+```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
 
 ## Rules this project follows
 
