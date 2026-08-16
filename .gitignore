@@ -1,0 +1,54 @@
+# Private research material (never published)
+private/
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+credentials*
+**/secrets/**
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Experiment outputs / generated data.
+# Small, human-readable result files (the ones cited by report numbers -- summaries, per-seed
+# raw episode data, small activity arrays) are tracked for reproducibility, per file size, not
+# by name pattern: everything under experiments/**/results/ is tracked EXCEPT the specific large
+# bulk per-decision dumps listed below (each 2.7-3.0 MB, regenerable from
+# run_oracle_comparison*.py). See docs/RESEARCH_LOG.md / docs/PHASE_INDEX.md and each phase's
+# *_REPORT.md for which files back which reported number.
+experiments/**/outputs/
+experiments/phase_b/results/large_sparse_counterfactual_raw.json
+experiments/phase_b/results/revised_large_sparse_counterfactual_raw.json
+experiments/phase_b/results/revised_small_dense_counterfactual_raw.json
+experiments/phase_b/results/small_dense_counterfactual_raw.json
+*.log
+logs/
+*.ckpt
+checkpoints/
+*.npz
+
+# Machine-specific / local caches
+*.cache
+.cache/

@@ -1,0 +1,32 @@
+{
+  "randomized_ids": {
+    "delegate_in_gini_mean": 0.7403034209934064,
+    "delegate_in_gini_std": 0.06326391406233815,
+    "role_persistence_mean": 0.9764309764309763,
+    "role_persistence_std": 0.02860962395454279,
+    "max_delegate_in_robot_per_seed": [
+      6,
+      5,
+      2,
+      6,
+      0,
+      2
+    ],
+    "max_delegate_in_robot_identical_across_seeds": false
+  },
+  "shuffled_order": {
+    "delegate_in_gini_mean": 0.7078261984968114,
+    "delegate_in_gini_std": 0.06380782132323955,
+    "role_persistence_mean": 0.8976430976430977,
+    "role_persistence_std": 0.13817682993864627,
+    "max_delegate_in_robot_per_seed": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "max_delegate_in_robot_identical_across_seeds": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "n_robots": 100,
+  "n_seeds": 4,
+  "seeds": [
+    60000,
+    60001,
+    60002,
+    60003
+  ],
+  "mean_utility_mean": -0.3482815134860023,
+  "delegate_in_gini_mean": 0.6460922461197172,
+  "delegate_in_gini_std": 0.0031341121434283244,
+  "messages_per_decision_mean": 1.367375,
+  "message_latency_per_decision_mean": 0.06842583805709429
+}

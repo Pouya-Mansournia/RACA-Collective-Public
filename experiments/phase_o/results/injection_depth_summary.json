@@ -1,0 +1,76 @@
+{
+  "seed_pool": {
+    "start": 40000,
+    "end": 40029,
+    "count": 30
+  },
+  "depths_tested": [
+    0.0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "decisions_per_robot": 800,
+  "by_depth": {
+    "0.0": {
+      "target_round": 0,
+      "n_seeds_total": 30,
+      "n_valid_perturbation_points": 29,
+      "n_no_perturbation_point": 1,
+      "flip_rate": 0.6206896551724138,
+      "n_flips": 18,
+      "flip_rate_bootstrap_ci": {
+        "mean": 0.6206896551724138,
+        "std": 0.48521542343000995,
+        "ci_lo": 0.4482758620689655,
+        "ci_hi": 0.7931034482758621,
+        "n_seeds": 29
+      }
+    },
+    "0.25": {
+      "target_round": 200,
+      "n_seeds_total": 30,
+      "n_valid_perturbation_points": 22,
+      "n_no_perturbation_point": 8,
+      "flip_rate": 0.4090909090909091,
+      "n_flips": 9,
+      "flip_rate_bootstrap_ci": {
+        "mean": 0.4090909090909091,
+        "std": 0.4916660830178166,
+        "ci_lo": 0.22727272727272727,
+        "ci_hi": 0.6363636363636364,
+        "n_seeds": 22
+      }
+    },
+    "0.5": {
+      "target_round": 400,
+      "n_seeds_total": 30,
+      "n_valid_perturbation_points": 14,
+      "n_no_perturbation_point": 16,
+      "flip_rate": 0.14285714285714285,
+      "n_flips": 2,
+      "flip_rate_bootstrap_ci": {
+        "mean": 0.14285714285714285,
+        "std": 0.34992710611188266,
+        "ci_lo": 0.0,
+        "ci_hi": 0.35714285714285715,
+        "n_seeds": 14
+      }
+    },
+    "0.75": {
+      "target_round": 600,
+      "n_seeds_total": 30,
+      "n_valid_perturbation_points": 7,
+      "n_no_perturbation_point": 23,
+      "flip_rate": 0.2857142857142857,
+      "n_flips": 2,
+      "flip_rate_bootstrap_ci": {
+        "mean": 0.2857142857142857,
+        "std": 0.45175395145262565,
+        "ci_lo": 0.0,
+        "ci_hi": 0.5714285714285714,
+        "n_seeds": 7
+      }
+    }
+  }
+}

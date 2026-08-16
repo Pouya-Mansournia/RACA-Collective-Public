@@ -1,0 +1,386 @@
+{
+  "calibration_seeds": [
+    18000,
+    18001,
+    18002,
+    18003,
+    18004,
+    18005,
+    18006,
+    18007,
+    18008,
+    18009
+  ],
+  "grid": [
+    {
+      "params": {
+        "self_load_penalty": 3.0,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.025799888441255907,
+      "std_utility": 0.003431245963023933
+    },
+    {
+      "params": {
+        "self_load_penalty": 3.0,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.025799888441255907,
+      "std_utility": 0.003431245963023933
+    },
+    {
+      "params": {
+        "self_load_penalty": 3.0,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.025799888441255907,
+      "std_utility": 0.003431245963023933
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.0,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.025836588643587156,
+      "std_utility": 0.003258926024286417
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.0,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.025836588643587156,
+      "std_utility": 0.003258926024286417
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.0,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.025836588643587156,
+      "std_utility": 0.003258926024286417
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.5,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.025836588643587156,
+      "std_utility": 0.003258926024286417
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.5,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.025836588643587156,
+      "std_utility": 0.003258926024286417
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.5,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.025836588643587156,
+      "std_utility": 0.003258926024286417
+    },
+    {
+      "params": {
+        "self_load_penalty": 1.5,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.02588400076332214,
+      "std_utility": 0.0033403939009118725
+    },
+    {
+      "params": {
+        "self_load_penalty": 1.5,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.02588400076332214,
+      "std_utility": 0.0033403939009118725
+    },
+    {
+      "params": {
+        "self_load_penalty": 1.5,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.9,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.02588400076332214,
+      "std_utility": 0.0033403939009118725
+    },
+    {
+      "params": {
+        "self_load_penalty": 1.5,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.11997487252468071,
+      "std_utility": 0.023128134677079103
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.5,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.12301287015686668,
+      "std_utility": 0.014825751481863091
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.5,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.12301287015686668,
+      "std_utility": 0.014825751481863091
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.5,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.1247311692523013,
+      "std_utility": 0.01583333364331999
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.0,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.1420083278848162,
+      "std_utility": 0.018043292713630987
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.0,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.1420083278848162,
+      "std_utility": 0.018043292713630987
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.0,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.1420083278848162,
+      "std_utility": 0.018043292713630987
+    },
+    {
+      "params": {
+        "self_load_penalty": 3.0,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.17352203964309498,
+      "std_utility": 0.04366095406775902
+    },
+    {
+      "params": {
+        "self_load_penalty": 1.5,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.1898151010325384,
+      "std_utility": 0.04453202650692078
+    },
+    {
+      "params": {
+        "self_load_penalty": 1.5,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.20219136343073424,
+      "std_utility": 0.04833709417388045
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.5,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.2102992390406359,
+      "std_utility": 0.015122826199173618
+    },
+    {
+      "params": {
+        "self_load_penalty": 3.0,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.21962227423501934,
+      "std_utility": 0.034346227853478344
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.5,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.2271671811651561,
+      "std_utility": 0.024206645857977233
+    },
+    {
+      "params": {
+        "self_load_penalty": 3.0,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.7,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.23588143723842067,
+      "std_utility": 0.03105535932776459
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.0,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.24083398250104365,
+      "std_utility": 0.011500616189092162
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.0,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.24083398250104365,
+      "std_utility": 0.011500616189092162
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.0,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.24083398250104365,
+      "std_utility": 0.011500616189092162
+    },
+    {
+      "params": {
+        "self_load_penalty": 0.5,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.2450729956218297,
+      "std_utility": 0.021742660191001725
+    },
+    {
+      "params": {
+        "self_load_penalty": 3.0,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.2561616757984231,
+      "std_utility": 0.020643219485176324
+    },
+    {
+      "params": {
+        "self_load_penalty": 1.5,
+        "lambda_msg": 0.05,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.2565051952053404,
+      "std_utility": 0.02319953608036266
+    },
+    {
+      "params": {
+        "self_load_penalty": 3.0,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.28534039079938084,
+      "std_utility": 0.016249900767146892
+    },
+    {
+      "params": {
+        "self_load_penalty": 1.5,
+        "lambda_msg": 0.01,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.2869006044655909,
+      "std_utility": 0.01572935785414226
+    },
+    {
+      "params": {
+        "self_load_penalty": 3.0,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.292762061219039,
+      "std_utility": 0.009467701401890667
+    },
+    {
+      "params": {
+        "self_load_penalty": 1.5,
+        "lambda_msg": 0.0,
+        "self_quality_factor": 0.5,
+        "peer_capacity": 2
+      },
+      "mean_utility": -0.29361191849807333,
+      "std_utility": 0.014933504973962779
+    }
+  ],
+  "best": {
+    "params": {
+      "self_load_penalty": 3.0,
+      "lambda_msg": 0.0,
+      "self_quality_factor": 0.9,
+      "peer_capacity": 2
+    },
+    "mean_utility": -0.025799888441255907,
+    "std_utility": 0.003431245963023933
+  }
+}

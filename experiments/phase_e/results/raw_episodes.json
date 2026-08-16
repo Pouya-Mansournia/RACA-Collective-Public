@@ -1,0 +1,970 @@
+{
+  "C0_no_shared_memory": [
+    {
+      "seed": 15000,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.0885938892209512,
+      "mean_regret": 0.031082386781007568,
+      "fleet_reasoning_call_rate": 0.11933333333333333,
+      "communication": {
+        "total_messages": 14,
+        "total_message_latency": 0.6846102376316393,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15001,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.10431549208794996,
+      "mean_regret": 0.02443923187113436,
+      "fleet_reasoning_call_rate": 0.17266666666666666,
+      "communication": {
+        "total_messages": 48,
+        "total_message_latency": 2.3932584044597394,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15002,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.12594534024621537,
+      "mean_regret": 0.028386533869562917,
+      "fleet_reasoning_call_rate": 0.21333333333333335,
+      "communication": {
+        "total_messages": 152,
+        "total_message_latency": 7.668132584850753,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15003,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.07530023939104316,
+      "mean_regret": 0.034946784242898904,
+      "fleet_reasoning_call_rate": 0.08533333333333333,
+      "communication": {
+        "total_messages": 4,
+        "total_message_latency": 0.21477763706643493,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15004,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.11366476789984585,
+      "mean_regret": 0.03185868268137995,
+      "fleet_reasoning_call_rate": 0.17466666666666666,
+      "communication": {
+        "total_messages": 66,
+        "total_message_latency": 3.326457573473622,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15005,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.10440289784711468,
+      "mean_regret": 0.02470586439196638,
+      "fleet_reasoning_call_rate": 0.17466666666666666,
+      "communication": {
+        "total_messages": 74,
+        "total_message_latency": 3.6274510954541954,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15006,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.09179247230035653,
+      "mean_regret": 0.02526553276938404,
+      "fleet_reasoning_call_rate": 0.13866666666666666,
+      "communication": {
+        "total_messages": 26,
+        "total_message_latency": 1.3300142386498623,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15007,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.08584279540580043,
+      "mean_regret": 0.031113812907240808,
+      "fleet_reasoning_call_rate": 0.11466666666666667,
+      "communication": {
+        "total_messages": 6,
+        "total_message_latency": 0.29578913504645393,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15008,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.08581952179879951,
+      "mean_regret": 0.028103717708319816,
+      "fleet_reasoning_call_rate": 0.12266666666666666,
+      "communication": {
+        "total_messages": 10,
+        "total_message_latency": 0.48677011067261705,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15009,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.11304270124065677,
+      "mean_regret": 0.029925864226671196,
+      "fleet_reasoning_call_rate": 0.174,
+      "communication": {
+        "total_messages": 70,
+        "total_message_latency": 3.3945250953332637,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15010,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.1200920735177743,
+      "mean_regret": 0.0294653014399273,
+      "fleet_reasoning_call_rate": 0.19,
+      "communication": {
+        "total_messages": 98,
+        "total_message_latency": 4.958010965185871,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15011,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.09662464836755513,
+      "mean_regret": 0.028543700921330167,
+      "fleet_reasoning_call_rate": 0.13866666666666666,
+      "communication": {
+        "total_messages": 26,
+        "total_message_latency": 1.2860193218168263,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15012,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.10625751893980533,
+      "mean_regret": 0.03016845572517938,
+      "fleet_reasoning_call_rate": 0.16333333333333333,
+      "communication": {
+        "total_messages": 56,
+        "total_message_latency": 2.74775362043869,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15013,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.10212216778142329,
+      "mean_regret": 0.03578333193143591,
+      "fleet_reasoning_call_rate": 0.13666666666666666,
+      "communication": {
+        "total_messages": 24,
+        "total_message_latency": 1.161751901679457,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15014,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.09009939865345867,
+      "mean_regret": 0.023334478398733465,
+      "fleet_reasoning_call_rate": 0.14066666666666666,
+      "communication": {
+        "total_messages": 20,
+        "total_message_latency": 0.9471950902257565,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    }
+  ],
+  "C1_global_shared_memory": [
+    {
+      "seed": 15000,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.13409368991933918,
+      "mean_regret": 0.03605545263998084,
+      "fleet_reasoning_call_rate": 0.196,
+      "communication": {
+        "total_messages": 346,
+        "total_message_latency": 17.389439161299936,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15001,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.2797894147395914,
+      "mean_regret": 0.040564567972303386,
+      "fleet_reasoning_call_rate": 0.5133333333333333,
+      "communication": {
+        "total_messages": 1516,
+        "total_message_latency": 75.8815387735806,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15002,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.2860341016944774,
+      "mean_regret": 0.042941197055703,
+      "fleet_reasoning_call_rate": 0.5066666666666667,
+      "communication": {
+        "total_messages": 1504,
+        "total_message_latency": 75.12790990254206,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15003,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.1994728011551833,
+      "mean_regret": 0.04640658518477971,
+      "fleet_reasoning_call_rate": 0.32066666666666666,
+      "communication": {
+        "total_messages": 890,
+        "total_message_latency": 44.630473401755516,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15004,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.2596716877539872,
+      "mean_regret": 0.0359343710774719,
+      "fleet_reasoning_call_rate": 0.47733333333333333,
+      "communication": {
+        "total_messages": 1384,
+        "total_message_latency": 70.08730020680795,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15005,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.2737638384573205,
+      "mean_regret": 0.05319210836619542,
+      "fleet_reasoning_call_rate": 0.46,
+      "communication": {
+        "total_messages": 1354,
+        "total_message_latency": 67.53575555695147,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15006,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.23349135874771293,
+      "mean_regret": 0.03701830079565792,
+      "fleet_reasoning_call_rate": 0.41933333333333334,
+      "communication": {
+        "total_messages": 1218,
+        "total_message_latency": 60.938338026756874,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15007,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.14732122650597573,
+      "mean_regret": 0.030929292744457087,
+      "fleet_reasoning_call_rate": 0.24866666666666667,
+      "communication": {
+        "total_messages": 562,
+        "total_message_latency": 27.87939698265461,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15008,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.22748812265502738,
+      "mean_regret": 0.03084150585495822,
+      "fleet_reasoning_call_rate": 0.4053333333333333,
+      "communication": {
+        "total_messages": 1196,
+        "total_message_latency": 60.481207196316,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15009,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.27191062206732414,
+      "mean_regret": 0.044037710861160484,
+      "fleet_reasoning_call_rate": 0.488,
+      "communication": {
+        "total_messages": 1408,
+        "total_message_latency": 70.81808328139034,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15010,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.2561250964162277,
+      "mean_regret": 0.03383589702246886,
+      "fleet_reasoning_call_rate": 0.482,
+      "communication": {
+        "total_messages": 1414,
+        "total_message_latency": 70.79476208526744,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15011,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.2357318186901529,
+      "mean_regret": 0.034029049315931745,
+      "fleet_reasoning_call_rate": 0.428,
+      "communication": {
+        "total_messages": 1256,
+        "total_message_latency": 62.79868587643815,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15012,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.2758438759336067,
+      "mean_regret": 0.04523504472890065,
+      "fleet_reasoning_call_rate": 0.48733333333333334,
+      "communication": {
+        "total_messages": 1452,
+        "total_message_latency": 72.52254492833455,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15013,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.22311821433498774,
+      "mean_regret": 0.03446829004133982,
+      "fleet_reasoning_call_rate": 0.396,
+      "communication": {
+        "total_messages": 1158,
+        "total_message_latency": 58.21574614875954,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 15014,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.21614425813111043,
+      "mean_regret": 0.03141006221396199,
+      "fleet_reasoning_call_rate": 0.3993333333333333,
+      "communication": {
+        "total_messages": 1094,
+        "total_message_latency": 54.94755037475453,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 10,
+      "n_memory_instances": 1
+    }
+  ],
+  "C2_peer_to_peer_selective": [
+    {
+      "seed": 15000,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.10110455990564024,
+      "mean_regret": 0.031884307786011146,
+      "fleet_reasoning_call_rate": 0.14066666666666666,
+      "communication": {
+        "total_messages": 104,
+        "total_message_latency": 5.220688102573387,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 12,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15001,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.2295321795135446,
+      "mean_regret": 0.038488908047321205,
+      "fleet_reasoning_call_rate": 0.4073333333333333,
+      "communication": {
+        "total_messages": 1072,
+        "total_message_latency": 53.81082411851815,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 14,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15002,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.26193954713529305,
+      "mean_regret": 0.03930866702419398,
+      "fleet_reasoning_call_rate": 0.4706666666666667,
+      "communication": {
+        "total_messages": 1328,
+        "total_message_latency": 66.3032566114187,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 10,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15003,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.1083717724968677,
+      "mean_regret": 0.032700031165080044,
+      "fleet_reasoning_call_rate": 0.16066666666666668,
+      "communication": {
+        "total_messages": 284,
+        "total_message_latency": 14.097083581267796,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 14,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15004,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.21109417382277745,
+      "mean_regret": 0.028993063472399196,
+      "fleet_reasoning_call_rate": 0.39066666666666666,
+      "communication": {
+        "total_messages": 1010,
+        "total_message_latency": 51.02227212770767,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 14,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15005,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.2074430787810379,
+      "mean_regret": 0.03772959658836883,
+      "fleet_reasoning_call_rate": 0.366,
+      "communication": {
+        "total_messages": 932,
+        "total_message_latency": 46.19007570343483,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 6,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15006,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.17714690748321876,
+      "mean_regret": 0.03631230445340967,
+      "fleet_reasoning_call_rate": 0.29533333333333334,
+      "communication": {
+        "total_messages": 684,
+        "total_message_latency": 34.317920223730965,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 10,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15007,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.09949363637649936,
+      "mean_regret": 0.0295089925413119,
+      "fleet_reasoning_call_rate": 0.15066666666666667,
+      "communication": {
+        "total_messages": 149,
+        "total_message_latency": 7.34810997119705,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 13,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15008,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.12511265509206965,
+      "mean_regret": 0.035298937410769025,
+      "fleet_reasoning_call_rate": 0.188,
+      "communication": {
+        "total_messages": 290,
+        "total_message_latency": 14.881443084188447,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 16,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15009,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.20028975079764397,
+      "mean_regret": 0.0262552681760776,
+      "fleet_reasoning_call_rate": 0.376,
+      "communication": {
+        "total_messages": 969,
+        "total_message_latency": 49.12227857086193,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 15,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15010,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.20422557537561226,
+      "mean_regret": 0.04085265682223616,
+      "fleet_reasoning_call_rate": 0.3433333333333333,
+      "communication": {
+        "total_messages": 820,
+        "total_message_latency": 41.362409981168526,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 14,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15011,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.15854724809175816,
+      "mean_regret": 0.03483114520163081,
+      "fleet_reasoning_call_rate": 0.26266666666666666,
+      "communication": {
+        "total_messages": 561,
+        "total_message_latency": 27.91896238784174,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 11,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15012,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.2329464935126207,
+      "mean_regret": 0.037538079507227505,
+      "fleet_reasoning_call_rate": 0.4073333333333333,
+      "communication": {
+        "total_messages": 1113,
+        "total_message_latency": 55.660159790951425,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 11,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15013,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.1594678179739781,
+      "mean_regret": 0.03654791543100263,
+      "fleet_reasoning_call_rate": 0.256,
+      "communication": {
+        "total_messages": 586,
+        "total_message_latency": 29.605575366816616,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 20,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15014,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.1496242523737398,
+      "mean_regret": 0.02714470304615144,
+      "fleet_reasoning_call_rate": 0.25866666666666666,
+      "communication": {
+        "total_messages": 530,
+        "total_message_latency": 26.46842255889396,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 16,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    }
+  ],
+  "C3_local_memory_only": [
+    {
+      "seed": 15000,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.10111979540375349,
+      "mean_regret": 0.031884307786011146,
+      "fleet_reasoning_call_rate": 0.14066666666666666,
+      "communication": {
+        "total_messages": 92,
+        "total_message_latency": 4.738876238387219,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15001,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.2269263027890842,
+      "mean_regret": 0.033544916736636066,
+      "fleet_reasoning_call_rate": 0.4073333333333333,
+      "communication": {
+        "total_messages": 1058,
+        "total_message_latency": 53.28219138480898,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15002,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.253146751462981,
+      "mean_regret": 0.03763250880374129,
+      "fleet_reasoning_call_rate": 0.4573333333333333,
+      "communication": {
+        "total_messages": 1274,
+        "total_message_latency": 63.432474990806035,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15003,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.10012299054650599,
+      "mean_regret": 0.035146370832380903,
+      "fleet_reasoning_call_rate": 0.138,
+      "communication": {
+        "total_messages": 202,
+        "total_message_latency": 10.107782718076825,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15004,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.18484014705592233,
+      "mean_regret": 0.02983788729593553,
+      "fleet_reasoning_call_rate": 0.3406666666666667,
+      "communication": {
+        "total_messages": 776,
+        "total_message_latency": 39.49856211171887,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15005,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.20271499281229066,
+      "mean_regret": 0.03747502483880235,
+      "fleet_reasoning_call_rate": 0.35933333333333334,
+      "communication": {
+        "total_messages": 906,
+        "total_message_latency": 45.136080702099896,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15006,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.17831303113079494,
+      "mean_regret": 0.033368133855440706,
+      "fleet_reasoning_call_rate": 0.30466666666666664,
+      "communication": {
+        "total_messages": 710,
+        "total_message_latency": 35.777535885437004,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15007,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.09948849279508688,
+      "mean_regret": 0.0295089925413119,
+      "fleet_reasoning_call_rate": 0.15066666666666667,
+      "communication": {
+        "total_messages": 136,
+        "total_message_latency": 6.679097203378148,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15008,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.1250863166579188,
+      "mean_regret": 0.035298937410769025,
+      "fleet_reasoning_call_rate": 0.188,
+      "communication": {
+        "total_messages": 274,
+        "total_message_latency": 13.779733589222163,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15009,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.2195840215722723,
+      "mean_regret": 0.03795508901836886,
+      "fleet_reasoning_call_rate": 0.384,
+      "communication": {
+        "total_messages": 972,
+        "total_message_latency": 49.19499210976485,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15010,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.20427107260377605,
+      "mean_regret": 0.047508922726896385,
+      "fleet_reasoning_call_rate": 0.326,
+      "communication": {
+        "total_messages": 712,
+        "total_message_latency": 35.57700781859469,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15011,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.15619654801783955,
+      "mean_regret": 0.03180769534474011,
+      "fleet_reasoning_call_rate": 0.26266666666666666,
+      "communication": {
+        "total_messages": 558,
+        "total_message_latency": 27.80730227098052,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15012,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.21976496390470948,
+      "mean_regret": 0.03476471345658958,
+      "fleet_reasoning_call_rate": 0.392,
+      "communication": {
+        "total_messages": 1030,
+        "total_message_latency": 51.068900690118454,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15013,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.1662440436791891,
+      "mean_regret": 0.04592934980134332,
+      "fleet_reasoning_call_rate": 0.252,
+      "communication": {
+        "total_messages": 544,
+        "total_message_latency": 27.50809955907777,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 15014,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.14158018290232324,
+      "mean_regret": 0.027920423868535986,
+      "fleet_reasoning_call_rate": 0.24,
+      "communication": {
+        "total_messages": 430,
+        "total_message_latency": 21.510586331798557,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "distinct_memory_entries": 90,
+      "n_memory_instances": 10
+    }
+  ]
+}
