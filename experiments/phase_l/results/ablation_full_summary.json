@@ -1,0 +1,50 @@
+{
+  "calibrated_params": {
+    "self_load_penalty": 3.0,
+    "lambda_msg": 0.0,
+    "self_quality_factor": 0.9,
+    "peer_capacity": 2
+  },
+  "b3_tau": 0.1,
+  "n_seeds": 10,
+  "A0_independent_B2_heuristic": {
+    "mean_utility": -0.33750669931119043,
+    "ci_lo": -0.34330989769380865,
+    "ci_hi": -0.331895945390019
+  },
+  "A1_independent_B3_learned": {
+    "mean_utility": -0.02970992605878947,
+    "ci_lo": -0.039785362460581834,
+    "ci_hi": -0.02366361817264999
+  },
+  "A2_centralized_manager": {
+    "mean_utility": -0.02970992605878947,
+    "ci_lo": -0.039785362460581834,
+    "ci_hi": -0.02366361817264999
+  },
+  "A3_distributed_no_delegation_calibrated": {
+    "mean_utility": -0.024953081509716746,
+    "ci_lo": -0.02652595527832947,
+    "ci_hi": -0.023234397709223788
+  },
+  "A4_delegation_frozen_memory": {
+    "mean_utility": -0.024953081509716746,
+    "ci_lo": -0.02652595527832947,
+    "ci_hi": -0.023234397709223788
+  },
+  "A5_delegation_local_memory": {
+    "mean_utility": -0.024953081509716746,
+    "ci_lo": -0.02652595527832947,
+    "ci_hi": -0.023234397709223788
+  },
+  "A6_delegation_shared_memory": {
+    "mean_utility": -0.024953081509716746,
+    "ci_lo": -0.02652595527832947,
+    "ci_hi": -0.023234397709223788
+  },
+  "A7_full_raca_collective": {
+    "mean_utility": -0.02997534971142333,
+    "ci_lo": -0.0405816334184834,
+    "ci_hi": -0.02366361817264999
+  }
+}

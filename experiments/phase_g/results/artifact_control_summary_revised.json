@@ -1,0 +1,62 @@
+{
+  "baseline_revised": {
+    "delegate_in_gini_mean": 0.7116020275573666,
+    "delegate_in_gini_std": 0.03703098184310027,
+    "role_persistence_mean": 0.8707070707070707,
+    "role_persistence_std": 0.09148340847268253,
+    "max_delegate_in_robot_per_seed": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "max_delegate_in_robot_identical_across_seeds": false
+  },
+  "randomized_ids": {
+    "delegate_in_gini_mean": 0.7116020275573666,
+    "delegate_in_gini_std": 0.03703098184310027,
+    "role_persistence_mean": 0.9016835016835016,
+    "role_persistence_std": 0.09233204849024974,
+    "max_delegate_in_robot_per_seed": [
+      7,
+      3,
+      9,
+      8,
+      9,
+      5
+    ],
+    "max_delegate_in_robot_identical_across_seeds": false
+  },
+  "shuffled_order": {
+    "delegate_in_gini_mean": 0.6968611115233547,
+    "delegate_in_gini_std": 0.06323250053458308,
+    "role_persistence_mean": 0.8727272727272727,
+    "role_persistence_std": 0.07460173251816221,
+    "max_delegate_in_robot_per_seed": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_delegate_in_robot_identical_across_seeds": true
+  },
+  "tie_break_randomized": {
+    "delegate_in_gini_mean": 0.46913113734455153,
+    "delegate_in_gini_std": 0.0710422657859157,
+    "role_persistence_mean": 0.8619528619528617,
+    "role_persistence_std": 0.07103978159127528,
+    "max_delegate_in_robot_per_seed": [
+      1,
+      9,
+      1,
+      8,
+      5,
+      1
+    ],
+    "max_delegate_in_robot_identical_across_seeds": false
+  }
+}

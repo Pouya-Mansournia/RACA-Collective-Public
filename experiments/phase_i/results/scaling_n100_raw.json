@@ -1,0 +1,34 @@
+[
+  {
+    "n_robots": 100,
+    "seed": 60000,
+    "mean_utility": -0.34599756637843865,
+    "delegate_in_gini": 0.6479388697500551,
+    "messages_per_decision": 1.3643,
+    "message_latency_per_decision": 0.0682754257735435
+  },
+  {
+    "n_robots": 100,
+    "seed": 60001,
+    "mean_utility": -0.34957766984043026,
+    "delegate_in_gini": 0.6471663364883704,
+    "messages_per_decision": 1.3629,
+    "message_latency_per_decision": 0.06821025402645153
+  },
+  {
+    "n_robots": 100,
+    "seed": 60002,
+    "mean_utility": -0.3466687823707329,
+    "delegate_in_gini": 0.6485345588235293,
+    "messages_per_decision": 1.36,
+    "message_latency_per_decision": 0.0680679357130438
+  },
+  {
+    "n_robots": 100,
+    "seed": 60003,
+    "mean_utility": -0.3508820353544073,
+    "delegate_in_gini": 0.6407292194169139,
+    "messages_per_decision": 1.3823,
+    "message_latency_per_decision": 0.06914973671533833
+  }
+]

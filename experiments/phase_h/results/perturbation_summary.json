@@ -1,0 +1,141 @@
+{
+  "n_seeds": 6,
+  "remove_at_round": 400,
+  "per_seed": [
+    {
+      "seed": 21000,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.16721233346195263,
+      "mean_utility_after_removal": -0.20870358502066158,
+      "utility_drop": 0.04149125155870895,
+      "window_utilities": [
+        -0.12177998802618487,
+        -0.1569899207137447,
+        -0.19385827144660683,
+        -0.19622115366127393,
+        -0.17314005951153955,
+        -0.20256696745826372,
+        -0.22137602335963547,
+        -0.23773128975320748
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8379301287102705,
+      "delegate_in_gini_among_remaining_after": 0.7348569305091045,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 21001,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.11976934083008238,
+      "mean_utility_after_removal": -0.22025880525950314,
+      "utility_drop": 0.10048946442942076,
+      "window_utilities": [
+        -0.1077972112783992,
+        -0.11187423962775805,
+        -0.11447374803404337,
+        -0.1449321643801289,
+        -0.17511949723755318,
+        -0.21198655673145272,
+        -0.22898267383058576,
+        -0.26494649323842084
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8888888888888888,
+      "delegate_in_gini_among_remaining_after": 0.7226012972790835,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 21002,
+      "removed_hub_robot": 1,
+      "mean_utility_before_removal": -0.2654844177195838,
+      "mean_utility_after_removal": -0.2782923134471651,
+      "utility_drop": 0.012807895727581287,
+      "window_utilities": [
+        -0.22930456886035624,
+        -0.2713429021375747,
+        -0.2815626910383449,
+        -0.2797275088420593,
+        -0.274638830358545,
+        -0.28128661536631117,
+        -0.27836316917811094,
+        -0.27888063888569337
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7674269487954566,
+      "delegate_in_gini_among_remaining_after": 0.6581875993640699,
+      "new_top_delegate_in_robot_after_removal": 2,
+      "reorganized": true
+    },
+    {
+      "seed": 21003,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.2119098271967578,
+      "mean_utility_after_removal": -0.22927022336634686,
+      "utility_drop": 0.017360396169589065,
+      "window_utilities": [
+        -0.15648528420082194,
+        -0.219033931247439,
+        -0.23903321598346072,
+        -0.23308687735530953,
+        -0.19811676966202413,
+        -0.2231421604768736,
+        -0.23896790190990738,
+        -0.2568540614165822
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8064461407972858,
+      "delegate_in_gini_among_remaining_after": 0.7320169252468265,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 21004,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.2733934651811494,
+      "mean_utility_after_removal": -0.2714020822248971,
+      "utility_drop": -0.0019913829562522856,
+      "window_utilities": [
+        -0.23567278674921766,
+        -0.27648332164478473,
+        -0.30156823523376586,
+        -0.2798495170968293,
+        -0.2590117069021535,
+        -0.27227063669807844,
+        -0.28499902775037905,
+        -0.2693269575489774
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7217013888888889,
+      "delegate_in_gini_among_remaining_after": 0.652036826838189,
+      "new_top_delegate_in_robot_after_removal": 2,
+      "reorganized": true
+    },
+    {
+      "seed": 21005,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.22009214850505884,
+      "mean_utility_after_removal": -0.22530165224248605,
+      "utility_drop": 0.005209503737427207,
+      "window_utilities": [
+        -0.18947333082644677,
+        -0.2083283677248878,
+        -0.2341094329663773,
+        -0.24845746250252357,
+        -0.2354966419924172,
+        -0.2216312702741256,
+        -0.22763127562327978,
+        -0.21644742108012183
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8317037037037037,
+      "delegate_in_gini_among_remaining_after": 0.6932559825960841,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    }
+  ],
+  "mean_utility_drop": 0.029227854777745834,
+  "std_utility_drop": 0.03461835142225456,
+  "mean_gini_among_remaining_before": 0.8090161999640824,
+  "mean_gini_among_remaining_after": 0.6988259269722262,
+  "n_seeds_reorganized_to_new_hub": 6,
+  "superseded_by": {
+    "file": "experiments/phase_h/results/perturbation_summary_30seeds.json",
+    "note": "Larger, fresh seed pool (n=30 vs n=6) with 95% bootstrap confidence intervals added. Confirms this file numbers, does not replace them (both are kept per the project no-overwrite-history rule)."
+  }
+}

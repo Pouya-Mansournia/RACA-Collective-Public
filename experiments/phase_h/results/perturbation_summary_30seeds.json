@@ -1,0 +1,658 @@
+{
+  "n_seeds": 30,
+  "seed_pool": [
+    50000,
+    50029
+  ],
+  "remove_at_round": 400,
+  "per_seed": [
+    {
+      "seed": 50000,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.23480318762903948,
+      "mean_utility_after_removal": -0.2712100825504573,
+      "utility_drop": 0.036406894921417826,
+      "window_utilities": [
+        -0.15946512472417163,
+        -0.25375013770011834,
+        -0.24677673460327285,
+        -0.2792207534885952,
+        -0.2784379706761987,
+        -0.27544192589386596,
+        -0.26899082724835527,
+        -0.26196960638340916
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7811667877027354,
+      "delegate_in_gini_among_remaining_after": 0.6733893557422969,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50001,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.24287708898489987,
+      "mean_utility_after_removal": -0.27258546222259883,
+      "utility_drop": 0.029708373237698954,
+      "window_utilities": [
+        -0.19425803229178334,
+        -0.2563684931630413,
+        -0.2591714690097211,
+        -0.26171036147505383,
+        -0.2605362746786728,
+        -0.28123293700693586,
+        -0.26663789973880353,
+        -0.28193473746598313
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7467980295566502,
+      "delegate_in_gini_among_remaining_after": 0.6649069884364002,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50002,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.11212239372104897,
+      "mean_utility_after_removal": -0.14709166607014917,
+      "utility_drop": 0.0349692723491002,
+      "window_utilities": [
+        -0.08931171447239278,
+        -0.09070074786336155,
+        -0.1301105253309195,
+        -0.13836658721752207,
+        -0.1177064173076133,
+        -0.13981920935690215,
+        -0.1579145993844895,
+        -0.17292643823159184
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8888888888888888,
+      "delegate_in_gini_among_remaining_after": 0.8375190258751902,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50003,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.2245651690001779,
+      "mean_utility_after_removal": -0.2671584957793452,
+      "utility_drop": 0.0425933267791673,
+      "window_utilities": [
+        -0.18760716267375613,
+        -0.20569855321836328,
+        -0.23451690507390016,
+        -0.27043805503469204,
+        -0.2464399909059577,
+        -0.25958825275937175,
+        -0.270006297821627,
+        -0.29259944163042434
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8063888888888889,
+      "delegate_in_gini_among_remaining_after": 0.6905217502232427,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50004,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.24087535100127666,
+      "mean_utility_after_removal": -0.26094678811121236,
+      "utility_drop": 0.020071437109935697,
+      "window_utilities": [
+        -0.17124653140243207,
+        -0.2609380775468935,
+        -0.25276566148317314,
+        -0.2785511335726079,
+        -0.25572118163462976,
+        -0.2665375902820702,
+        -0.2670465959145672,
+        -0.25448178461358234
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7677188114232859,
+      "delegate_in_gini_among_remaining_after": 0.6864373270067221,
+      "new_top_delegate_in_robot_after_removal": 2,
+      "reorganized": true
+    },
+    {
+      "seed": 50005,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.24681943516185156,
+      "mean_utility_after_removal": -0.2726212381228055,
+      "utility_drop": 0.025801802960953912,
+      "window_utilities": [
+        -0.20907765119718744,
+        -0.22087317693747446,
+        -0.2572213197183971,
+        -0.30010559279434723,
+        -0.2573504321307696,
+        -0.2702049164594541,
+        -0.27336347269647415,
+        -0.289566131204524
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7502863688430699,
+      "delegate_in_gini_among_remaining_after": 0.6630482250920208,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50006,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.22034564399881307,
+      "mean_utility_after_removal": -0.2548330125247077,
+      "utility_drop": 0.034487368525894624,
+      "window_utilities": [
+        -0.15848782770145628,
+        -0.20771064057667335,
+        -0.25543000077127553,
+        -0.25975410694584705,
+        -0.21705428395300164,
+        -0.26415813046273706,
+        -0.26656203313172666,
+        -0.27155760255136535
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7908420644159876,
+      "delegate_in_gini_among_remaining_after": 0.6980392156862745,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50007,
+      "removed_hub_robot": 1,
+      "mean_utility_before_removal": -0.2934852427974562,
+      "mean_utility_after_removal": -0.29275084742334284,
+      "utility_drop": -0.0007343953741133502,
+      "window_utilities": [
+        -0.2524144266840454,
+        -0.3134770305538,
+        -0.30281432622304066,
+        -0.3052351877289388,
+        -0.2897599427338837,
+        -0.3024362434114294,
+        -0.27425818286672554,
+        -0.3045490206813327
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7162017985063253,
+      "delegate_in_gini_among_remaining_after": 0.6563982365087337,
+      "new_top_delegate_in_robot_after_removal": 2,
+      "reorganized": true
+    },
+    {
+      "seed": 50008,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.2725561901011225,
+      "mean_utility_after_removal": -0.28289122826360197,
+      "utility_drop": 0.010335038162479493,
+      "window_utilities": [
+        -0.24259998128125074,
+        -0.2812478736163892,
+        -0.27984484342694194,
+        -0.2865320620799081,
+        -0.26591227328359535,
+        -0.2922596893585285,
+        -0.2743231101909089,
+        -0.29906984022137517
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7480063795853269,
+      "delegate_in_gini_among_remaining_after": 0.7056166056166057,
+      "new_top_delegate_in_robot_after_removal": 2,
+      "reorganized": true
+    },
+    {
+      "seed": 50009,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.280213862435711,
+      "mean_utility_after_removal": -0.2961220173840534,
+      "utility_drop": 0.015908154948342412,
+      "window_utilities": [
+        -0.24277723158993228,
+        -0.29066506913394624,
+        -0.290945303989114,
+        -0.2964678450298514,
+        -0.2904769475693285,
+        -0.2882706171983245,
+        -0.3191458132783789,
+        -0.28659469149018185
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7057080610021786,
+      "delegate_in_gini_among_remaining_after": 0.6646535816138232,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50010,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.20659786397052216,
+      "mean_utility_after_removal": -0.2657741878988791,
+      "utility_drop": 0.05917632392835692,
+      "window_utilities": [
+        -0.13957852577295876,
+        -0.19956963909811776,
+        -0.24426073454010738,
+        -0.24298255647090472,
+        -0.25277589534964473,
+        -0.27058812758788675,
+        -0.273793169601936,
+        -0.26593955905604877
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8019863438857853,
+      "delegate_in_gini_among_remaining_after": 0.668744723683356,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50011,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.25121483715406323,
+      "mean_utility_after_removal": -0.2626481701573402,
+      "utility_drop": 0.01143333300327698,
+      "window_utilities": [
+        -0.18561879588329813,
+        -0.2598257865897122,
+        -0.28983428600655614,
+        -0.2695804801366865,
+        -0.2601038979617842,
+        -0.2649425629625235,
+        -0.2638534221377112,
+        -0.26169279756734204
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7697173757779818,
+      "delegate_in_gini_among_remaining_after": 0.6774883603875677,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50012,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.2745124351593455,
+      "mean_utility_after_removal": -0.2823533918818876,
+      "utility_drop": 0.007840956722542147,
+      "window_utilities": [
+        -0.2221938948591545,
+        -0.2872206815154511,
+        -0.297436140459628,
+        -0.2911990238031484,
+        -0.26893979437442667,
+        -0.27733213703738907,
+        -0.30630021636734406,
+        -0.27684141974839055
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7268370607028753,
+      "delegate_in_gini_among_remaining_after": 0.6134518518518519,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50013,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.2566908702562432,
+      "mean_utility_after_removal": -0.2786304897789802,
+      "utility_drop": 0.021939619522736986,
+      "window_utilities": [
+        -0.20526924552002423,
+        -0.2726670199407369,
+        -0.27083639560114425,
+        -0.2779908199630675,
+        -0.2587588025577341,
+        -0.29696970445126525,
+        -0.27852121430245097,
+        -0.2802722378044703
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7392699558764542,
+      "delegate_in_gini_among_remaining_after": 0.6420292493476546,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50014,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.20559180342851482,
+      "mean_utility_after_removal": -0.21737503419853163,
+      "utility_drop": 0.011783230770016806,
+      "window_utilities": [
+        -0.1576794308198842,
+        -0.2085318311823508,
+        -0.22250434358405854,
+        -0.2336516081277659,
+        -0.19945037245782532,
+        -0.21670290844652715,
+        -0.22095829673029235,
+        -0.2323885591594815
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8090614886731391,
+      "delegate_in_gini_among_remaining_after": 0.7570682513956419,
+      "new_top_delegate_in_robot_after_removal": 2,
+      "reorganized": true
+    },
+    {
+      "seed": 50015,
+      "removed_hub_robot": 1,
+      "mean_utility_before_removal": -0.281117239578728,
+      "mean_utility_after_removal": -0.2923864207032476,
+      "utility_drop": 0.011269181124519634,
+      "window_utilities": [
+        -0.23701202916469588,
+        -0.3087170562018254,
+        -0.28698567879207265,
+        -0.291754194156318,
+        -0.2965955702239595,
+        -0.29931439216190997,
+        -0.2902279685301967,
+        -0.28340775189692424
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7067143830947512,
+      "delegate_in_gini_among_remaining_after": 0.6565237436606731,
+      "new_top_delegate_in_robot_after_removal": 0,
+      "reorganized": true
+    },
+    {
+      "seed": 50016,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.16034424657034252,
+      "mean_utility_after_removal": -0.2056950389016761,
+      "utility_drop": 0.04535079233133357,
+      "window_utilities": [
+        -0.11280422287378537,
+        -0.14658118143032361,
+        -0.18629745260696018,
+        -0.19569412937030087,
+        -0.19463055656731304,
+        -0.20296907999229355,
+        -0.20342970806279426,
+        -0.22175081098430371
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8739076154806492,
+      "delegate_in_gini_among_remaining_after": 0.7906020558002936,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50017,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.26364141137291086,
+      "mean_utility_after_removal": -0.2833448704163275,
+      "utility_drop": 0.019703459043416638,
+      "window_utilities": [
+        -0.224369551152809,
+        -0.27398293435788096,
+        -0.2686255774726441,
+        -0.28758758250830946,
+        -0.26065845841796803,
+        -0.2884767850912189,
+        -0.2882145699946638,
+        -0.2960296681614593
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7026390990082366,
+      "delegate_in_gini_among_remaining_after": 0.6185495118549512,
+      "new_top_delegate_in_robot_after_removal": 2,
+      "reorganized": true
+    },
+    {
+      "seed": 50018,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.26309445566276535,
+      "mean_utility_after_removal": -0.27548023222838536,
+      "utility_drop": 0.01238577656562001,
+      "window_utilities": [
+        -0.21192819217080924,
+        -0.26897519251088037,
+        -0.28789192641169176,
+        -0.28358251155768,
+        -0.25942996152915504,
+        -0.26981925509834753,
+        -0.28192344537679587,
+        -0.29074826690924305
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7259735619864238,
+      "delegate_in_gini_among_remaining_after": 0.6224929248185062,
+      "new_top_delegate_in_robot_after_removal": 2,
+      "reorganized": true
+    },
+    {
+      "seed": 50019,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.25686069664376804,
+      "mean_utility_after_removal": -0.2792271418990357,
+      "utility_drop": 0.022366445255267653,
+      "window_utilities": [
+        -0.2065431975381364,
+        -0.2515358047111992,
+        -0.28595904317501103,
+        -0.2834047411507255,
+        -0.2724981652981502,
+        -0.2800793378722629,
+        -0.28674171767291534,
+        -0.2775893467528143
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7132583814443431,
+      "delegate_in_gini_among_remaining_after": 0.6288364146683751,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50020,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.21494086830023795,
+      "mean_utility_after_removal": -0.2696696741894479,
+      "utility_drop": 0.054728805889209975,
+      "window_utilities": [
+        -0.14486722781833322,
+        -0.2170080838073197,
+        -0.21937370374796455,
+        -0.27851445782733436,
+        -0.24921629008081708,
+        -0.2922690953700123,
+        -0.27760937519300316,
+        -0.25958393611395914
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7884551217884551,
+      "delegate_in_gini_among_remaining_after": 0.6743661223947962,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50021,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.11822018520287894,
+      "mean_utility_after_removal": -0.14505563185918174,
+      "utility_drop": 0.026835446656302803,
+      "window_utilities": [
+        -0.07147508506573519,
+        -0.0950733619775285,
+        -0.1369170545666017,
+        -0.16941523920165047,
+        -0.1280507149375797,
+        -0.1374642034177751,
+        -0.15244483437570003,
+        -0.1622627747056721
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8888888888888888,
+      "delegate_in_gini_among_remaining_after": 0.820373391335871,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50022,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.12923004833323673,
+      "mean_utility_after_removal": -0.12287895271284995,
+      "utility_drop": -0.006351095620386785,
+      "window_utilities": [
+        -0.09673963148963802,
+        -0.11938199153779643,
+        -0.1481997213585052,
+        -0.15259884894700732,
+        -0.10607338686704906,
+        -0.1251552904076819,
+        -0.13143999416403027,
+        -0.12884713941263853
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8888888888888888,
+      "delegate_in_gini_among_remaining_after": 0.8784559207094418,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50023,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.22651433945960023,
+      "mean_utility_after_removal": -0.2717796316396933,
+      "utility_drop": 0.04526529218009309,
+      "window_utilities": [
+        -0.161436756159654,
+        -0.2241050380382767,
+        -0.24771537553396855,
+        -0.27280018810650164,
+        -0.24277479580009215,
+        -0.28199786331415133,
+        -0.28027860730814985,
+        -0.28206726013638
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7617712349573549,
+      "delegate_in_gini_among_remaining_after": 0.6652840623428858,
+      "new_top_delegate_in_robot_after_removal": 2,
+      "reorganized": true
+    },
+    {
+      "seed": 50024,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.28257534810797164,
+      "mean_utility_after_removal": -0.29066143864193317,
+      "utility_drop": 0.008086090533961532,
+      "window_utilities": [
+        -0.26331218093345604,
+        -0.3071630239884865,
+        -0.27186408845178517,
+        -0.28796209905815895,
+        -0.28426447593557763,
+        -0.30092582248223965,
+        -0.2883024012678846,
+        -0.28915305488203075
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7165896750141827,
+      "delegate_in_gini_among_remaining_after": 0.6474594028287062,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50025,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.2684283127786473,
+      "mean_utility_after_removal": -0.26677035743246963,
+      "utility_drop": -0.0016579553461776864,
+      "window_utilities": [
+        -0.2390413853624824,
+        -0.29208334850318757,
+        -0.2642191503558445,
+        -0.2783693668930747,
+        -0.2524718030253348,
+        -0.2645565011837315,
+        -0.26026620841949977,
+        -0.28978691710131244
+      ],
+      "delegate_in_gini_among_remaining_before": 0.739514348785872,
+      "delegate_in_gini_among_remaining_after": 0.6822093770070649,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50026,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.13102202227989374,
+      "mean_utility_after_removal": -0.1251992528556791,
+      "utility_drop": -0.005822769424214641,
+      "window_utilities": [
+        -0.11162092421719307,
+        -0.12037330813941764,
+        -0.12455602000879129,
+        -0.16753783675417303,
+        -0.1054991968220494,
+        -0.12991392682035685,
+        -0.13504112924814865,
+        -0.13034275853216148
+      ],
+      "delegate_in_gini_among_remaining_before": 0.8888888888888888,
+      "delegate_in_gini_among_remaining_after": 0.8888888888888888,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50027,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.21989454369248268,
+      "mean_utility_after_removal": -0.26641012945238224,
+      "utility_drop": 0.04651558575989956,
+      "window_utilities": [
+        -0.14337490324293717,
+        -0.20371730479259154,
+        -0.24541264102948024,
+        -0.2870733257049218,
+        -0.22519022141665904,
+        -0.26996121909050197,
+        -0.2992786372811687,
+        -0.27121044002119915
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7531876138433515,
+      "delegate_in_gini_among_remaining_after": 0.6729008377167349,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50028,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.2400401114612828,
+      "mean_utility_after_removal": -0.26251004747059176,
+      "utility_drop": 0.022469936009308966,
+      "window_utilities": [
+        -0.17679769696191922,
+        -0.2462202487570891,
+        -0.2683846993273747,
+        -0.26875780079874817,
+        -0.2434440091554303,
+        -0.26535166268255694,
+        -0.2719514279276105,
+        -0.2692930901167692
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7572281959378733,
+      "delegate_in_gini_among_remaining_after": 0.6961983029331196,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    },
+    {
+      "seed": 50029,
+      "removed_hub_robot": 0,
+      "mean_utility_before_removal": -0.23975870062451002,
+      "mean_utility_after_removal": -0.25552118706675275,
+      "utility_drop": 0.015762486442242735,
+      "window_utilities": [
+        -0.18902635730505896,
+        -0.2511842441417234,
+        -0.26124841145432975,
+        -0.257575789596928,
+        -0.2504862713840931,
+        -0.2603258372466835,
+        -0.25868347916301637,
+        -0.252589160473218
+      ],
+      "delegate_in_gini_among_remaining_before": 0.7772160431412201,
+      "delegate_in_gini_among_remaining_after": 0.6832066159797252,
+      "new_top_delegate_in_robot_after_removal": 1,
+      "reorganized": true
+    }
+  ],
+  "mean_utility_drop": 0.02262094049894013,
+  "std_utility_drop": 0.01720062773508068,
+  "utility_drop_95ci_bootstrap": [
+    0.016549819954191792,
+    0.028836097260863877
+  ],
+  "mean_gini_among_remaining_before": 0.7744000081626318,
+  "mean_gini_among_remaining_before_95ci_bootstrap": [
+    0.7547200427403303,
+    0.7956577737562017
+  ],
+  "mean_gini_among_remaining_after": 0.6975220107135806,
+  "mean_gini_among_remaining_after_95ci_bootstrap": [
+    0.6736590068159362,
+    0.7250906140933764
+  ],
+  "n_seeds_reorganized_to_new_hub": 30,
+  "fraction_reorganized": 1.0
+}

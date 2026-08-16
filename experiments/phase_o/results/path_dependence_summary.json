@@ -1,0 +1,34 @@
+{
+  "seed_pool": {
+    "start": 30200,
+    "end": 30229,
+    "count": 30
+  },
+  "n_seeds_total": 30,
+  "n_seeds_with_valid_perturbation_point": 30,
+  "n_seeds_no_perturbation_point_found": 0,
+  "hub_flip_rate_among_valid_seeds": 0.7,
+  "n_hub_flips": 21,
+  "mean_abs_gini_shift": 0.07647484703955804,
+  "gini_shift_ci": {
+    "mean": 0.07647484703955804,
+    "std": 0.051583942422906176,
+    "ci_lo": 0.0584436864317069,
+    "ci_hi": 0.09532193436730342,
+    "n_seeds": 30
+  },
+  "baseline_gini_ci": {
+    "mean": 0.4816163316081911,
+    "std": 0.11784910107557253,
+    "ci_lo": 0.440457236063312,
+    "ci_hi": 0.5256621531808587,
+    "n_seeds": 30
+  },
+  "perturbed_gini_ci": {
+    "mean": 0.462713778461415,
+    "std": 0.13428165567801822,
+    "ci_lo": 0.41933496359184147,
+    "ci_hi": 0.5134838843433231,
+    "n_seeds": 30
+  }
+}

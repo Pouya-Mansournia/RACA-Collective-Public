@@ -1,0 +1,15 @@
+{
+  "delegate_in_gini_mean": 0.46913113734455153,
+  "delegate_in_gini_std": 0.0710422657859157,
+  "role_persistence_mean": 0.8619528619528617,
+  "role_persistence_std": 0.07103978159127528,
+  "max_delegate_in_robot_per_seed": [
+    1,
+    9,
+    1,
+    8,
+    5,
+    1
+  ],
+  "max_delegate_in_robot_identical_across_seeds": false
+}

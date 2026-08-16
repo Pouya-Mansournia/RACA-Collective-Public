@@ -1,0 +1,36 @@
+{
+  "calibrated_params": {
+    "self_load_penalty": 3.0,
+    "lambda_msg": 0.0,
+    "self_quality_factor": 0.9,
+    "peer_capacity": 2
+  },
+  "calibration_grid_best_utility": -0.025799888441255907,
+  "delegation_enabled": {
+    "n_seeds": 15,
+    "mean_utility": {
+      "mean": -0.027835534278395118,
+      "ci_lo": -0.0309383552758006,
+      "ci_hi": -0.02519514361458361
+    },
+    "mean_regret_avg": 0.024707074034560954,
+    "fleet_reasoning_call_rate_mean": 0.0002666666666666667,
+    "total_messages_mean": 0.0
+  },
+  "delegation_disabled": {
+    "n_seeds": 15,
+    "mean_utility": {
+      "mean": -0.027835534278395118,
+      "ci_lo": -0.0309383552758006,
+      "ci_hi": -0.02519514361458361
+    },
+    "mean_regret_avg": 0.024707074034560954,
+    "fleet_reasoning_call_rate_mean": 0.0002666666666666667,
+    "total_messages_mean": 0.0
+  },
+  "paired_utility_diff_enabled_minus_disabled": {
+    "mean": 0.0,
+    "ci_lo": 0.0,
+    "ci_hi": 0.0
+  }
+}

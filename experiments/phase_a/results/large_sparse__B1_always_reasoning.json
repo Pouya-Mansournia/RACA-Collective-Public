@@ -1,0 +1,182 @@
+[
+  {
+    "n": 2000,
+    "completion_rate": 0.864,
+    "mean_cost": 15.888632493501612,
+    "mean_regret": 0.009120523261560976,
+    "mean_latency": 3.0346753979302785,
+    "reasoning_call_rate": 1.0,
+    "seed": 1000
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.889,
+    "mean_cost": 13.186023671678354,
+    "mean_regret": 0.01181821207205942,
+    "mean_latency": 2.9964972136537082,
+    "reasoning_call_rate": 1.0,
+    "seed": 1001
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.877,
+    "mean_cost": 14.307161043102,
+    "mean_regret": 0.013879529020640772,
+    "mean_latency": 3.024016702468747,
+    "reasoning_call_rate": 1.0,
+    "seed": 1002
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.8845,
+    "mean_cost": 13.685415861179278,
+    "mean_regret": 0.018443863509552145,
+    "mean_latency": 3.0247509745194767,
+    "reasoning_call_rate": 1.0,
+    "seed": 1003
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.8625,
+    "mean_cost": 16.137659609730832,
+    "mean_regret": 0.007692248137665152,
+    "mean_latency": 3.065860181877213,
+    "reasoning_call_rate": 1.0,
+    "seed": 1004
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.8665,
+    "mean_cost": 15.763509817836278,
+    "mean_regret": 0.00750645282909449,
+    "mean_latency": 2.995382480270141,
+    "reasoning_call_rate": 1.0,
+    "seed": 1005
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.8725,
+    "mean_cost": 14.886803790477973,
+    "mean_regret": 0.008895597459088867,
+    "mean_latency": 2.9870727700459527,
+    "reasoning_call_rate": 1.0,
+    "seed": 1006
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.8745,
+    "mean_cost": 14.812000126980031,
+    "mean_regret": 0.01269967589073291,
+    "mean_latency": 3.0098711387894626,
+    "reasoning_call_rate": 1.0,
+    "seed": 1007
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.887,
+    "mean_cost": 13.388696292227207,
+    "mean_regret": 0.009492523499589537,
+    "mean_latency": 3.031261739693572,
+    "reasoning_call_rate": 1.0,
+    "seed": 1008
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.869,
+    "mean_cost": 15.663751456757403,
+    "mean_regret": 0.0037589196693314964,
+    "mean_latency": 3.0071569486030447,
+    "reasoning_call_rate": 1.0,
+    "seed": 1009
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.87,
+    "mean_cost": 15.31249894688768,
+    "mean_regret": 0.00416901897061269,
+    "mean_latency": 3.005698086122207,
+    "reasoning_call_rate": 1.0,
+    "seed": 1010
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.874,
+    "mean_cost": 14.921381341082286,
+    "mean_regret": 0.026970258843873003,
+    "mean_latency": 2.9894342713969237,
+    "reasoning_call_rate": 1.0,
+    "seed": 1011
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.8714999999999999,
+    "mean_cost": 15.09523151166553,
+    "mean_regret": 0.0037916048547660033,
+    "mean_latency": 3.0411687702682886,
+    "reasoning_call_rate": 1.0,
+    "seed": 1012
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.8795,
+    "mean_cost": 14.189738007194686,
+    "mean_regret": 0.014558782272577168,
+    "mean_latency": 2.9770480904397214,
+    "reasoning_call_rate": 1.0,
+    "seed": 1013
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.89,
+    "mean_cost": 12.735827312596776,
+    "mean_regret": 0.014313337591140785,
+    "mean_latency": 3.02536308271816,
+    "reasoning_call_rate": 1.0,
+    "seed": 1014
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.875,
+    "mean_cost": 14.718786451872168,
+    "mean_regret": 0.0058374537752646305,
+    "mean_latency": 3.0191232851323555,
+    "reasoning_call_rate": 1.0,
+    "seed": 1015
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.8705,
+    "mean_cost": 15.269743649590023,
+    "mean_regret": 0.004578592516963774,
+    "mean_latency": 2.9781348824768212,
+    "reasoning_call_rate": 1.0,
+    "seed": 1016
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.87,
+    "mean_cost": 15.19443315623053,
+    "mean_regret": 0.009648268238070693,
+    "mean_latency": 3.047360790660507,
+    "reasoning_call_rate": 1.0,
+    "seed": 1017
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.878,
+    "mean_cost": 13.928047421548126,
+    "mean_regret": 0.01516636090116121,
+    "mean_latency": 3.025544052243725,
+    "reasoning_call_rate": 1.0,
+    "seed": 1018
+  },
+  {
+    "n": 2000,
+    "completion_rate": 0.87,
+    "mean_cost": 15.404077837998809,
+    "mean_regret": 0.01582704774665487,
+    "mean_latency": 3.033496954946662,
+    "reasoning_call_rate": 1.0,
+    "seed": 1019
+  }
+]

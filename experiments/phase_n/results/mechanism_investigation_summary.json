@@ -1,0 +1,114 @@
+{
+  "seed_pool": {
+    "start": 30100,
+    "end": 30149,
+    "count": 50
+  },
+  "H1_opportunity_count": {
+    "description": "correlation of per-robot delegation-candidacy opportunity count (rounds under peer_capacity when another robot decided) vs final delegate-in share",
+    "n_samples": 500,
+    "pearson_r": -0.6979910075670006,
+    "spearman_r": -0.6585480421921688,
+    "mechanism_diagnostic": {
+      "description": "tests whether the negative H1 correlation is a mechanical artifact of the peer_capacity=2 constraint: once a robot has already received peer_capacity delegations within a round, it reads as 'unavailable' to every later decider that same round, mechanically depressing its own opportunity_count in direct proportion to how much delegate-in traffic it is already receiving. unavailable_count = decisions_seen_as_other - opportunity_count; if this is the explanation, unavailable_count should correlate strongly POSITIVELY with raw delegate-in count.",
+      "unavailable_count_vs_raw_delegate_in_pearson": 0.8262990873751118,
+      "unavailable_count_vs_raw_delegate_in_spearman": 0.6484756819027275,
+      "opportunity_count_vs_raw_delegate_in_pearson": -0.8262990873751119
+    }
+  },
+  "H2_spatial_positional": {
+    "description": "ruled out by construction (analytical, not simulated): FleetSimulator has no per-robot spatial position; every robot's candidate set is drawn purely from its own private RNG stream, not proximity to a station or another robot. See src/environment/simulator.py.",
+    "tested_by_simulation": false
+  },
+  "H3_whole_episode_success_rate": {
+    "description": "correlation of each robot's pooled, whole-episode cumulative delegate-in success_rate vs final delegate-in share (contrast with Phase M's first-10%-only check)",
+    "n_samples": 349,
+    "pearson_r": 0.15364931383571445,
+    "spearman_r": 0.04552599263200982,
+    "outlier_check": {
+      "description": "recomputed excluding robot-seed samples with fewer than 10 pooled delegate-in responses this episode (unreliable success_rate estimate)",
+      "n_excluded_low_count": 4,
+      "n_samples_filtered": 345,
+      "pearson_r_filtered": 0.08576727797124477,
+      "spearman_r_filtered": 0.047134081836619
+    }
+  },
+  "H4_windowed_memory_ablation": {
+    "description": "unbounded PeerMemory vs WindowedPeerMemory(window=50), same seeds/controls",
+    "real_unbounded_gini_ci": {
+      "mean": 0.46019787017962427,
+      "std": 0.09874574419867542,
+      "ci_lo": 0.43371641634623614,
+      "ci_hi": 0.48893427558928443,
+      "n_seeds": 50
+    },
+    "windowed_gini_ci": {
+      "mean": 0.4545832431869592,
+      "std": 0.1000250225182473,
+      "ci_lo": 0.4273958859123723,
+      "ci_hi": 0.48371823263352964,
+      "n_seeds": 50
+    },
+    "gini_ci_overlap": true,
+    "real_unbounded_full": {
+      "gini": {
+        "mean": 0.46019787017962427,
+        "std": 0.09874574419867542,
+        "ci_lo": 0.43371641634623614,
+        "ci_hi": 0.48893427558928443,
+        "n_seeds": 50
+      },
+      "hhi": {
+        "mean": 0.17934573523432212,
+        "std": 0.058077442747639575,
+        "ci_lo": 0.16593233512415448,
+        "ci_hi": 0.19773185177429214,
+        "n_seeds": 50
+      },
+      "entropy": {
+        "mean": 0.9640690771785831,
+        "std": 0.10479367360865556,
+        "ci_lo": 0.9317859953302073,
+        "ci_hi": 0.9900003032322784,
+        "n_seeds": 50
+      },
+      "persistence": {
+        "mean": 0.8821818181818182,
+        "std": 0.07772863723771282,
+        "ci_lo": 0.8592323232323231,
+        "ci_hi": 0.9025454545454543,
+        "n_seeds": 50
+      }
+    },
+    "windowed_full": {
+      "gini": {
+        "mean": 0.4545832431869592,
+        "std": 0.1000250225182473,
+        "ci_lo": 0.4273958859123723,
+        "ci_hi": 0.48371823263352964,
+        "n_seeds": 50
+      },
+      "hhi": {
+        "mean": 0.177959707141068,
+        "std": 0.058821000105032946,
+        "ci_lo": 0.1641698673887328,
+        "ci_hi": 0.19657022156176654,
+        "n_seeds": 50
+      },
+      "entropy": {
+        "mean": 0.9672138347383625,
+        "std": 0.1024604802060728,
+        "ci_lo": 0.9366584372345873,
+        "ci_hi": 0.9925893154456641,
+        "n_seeds": 50
+      },
+      "persistence": {
+        "mean": 0.8517979797979797,
+        "std": 0.11459782530723003,
+        "ci_lo": 0.8178565656565655,
+        "ci_hi": 0.8812121212121211,
+        "n_seeds": 50
+      }
+    }
+  }
+}

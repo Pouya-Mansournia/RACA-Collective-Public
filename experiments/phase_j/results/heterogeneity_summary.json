@@ -1,0 +1,14 @@
+{
+  "H0_homogeneous": {
+    "mean_utility": -0.24033068623504747,
+    "delegate_in_gini_mean": 0.7015476226456,
+    "delegate_in_gini_std": 0.05548689210312168
+  },
+  "H1_heterogeneous": {
+    "mean_utility": -0.154063901716087,
+    "delegate_in_gini_mean": 0.7481543821806453,
+    "delegate_in_gini_std": 0.05122840678561789,
+    "fast_robot_delegate_in_share_mean": 0.9750179565316023,
+    "fast_robot_expected_share_if_uniform": 0.3
+  }
+}

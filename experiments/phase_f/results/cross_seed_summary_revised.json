@@ -1,0 +1,19 @@
+{
+  "delegate_in_gini_mean": 0.7116020275573666,
+  "delegate_in_gini_std": 0.03703098184310027,
+  "delegate_in_hhi_mean": 0.32382964461757524,
+  "delegate_in_hhi_std": 0.04213156084129299,
+  "mean_entropy_mean": 0.8415689581725774,
+  "mean_entropy_std": 0.018631348702298177,
+  "role_persistence_mean": 0.8707070707070707,
+  "role_persistence_std": 0.09148340847268253,
+  "max_delegate_in_robot_per_seed": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "max_delegate_in_robot_identical_across_seeds": false
+}
