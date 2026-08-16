@@ -1,0 +1,41 @@
+{
+  "delegation_enabled": {
+    "n_seeds": 15,
+    "mean_utility": {
+      "mean": -0.18489742016354382,
+      "ci_lo": -0.2043585102362063,
+      "ci_hi": -0.16325737422120723
+    },
+    "mean_regret": {
+      "mean": 0.035030564683598754,
+      "ci_lo": 0.03252872979652843,
+      "ci_hi": 0.0375568929156193
+    },
+    "fleet_reasoning_call_rate_mean": 0.31795555555555555,
+    "total_messages_mean": 746.2666666666667,
+    "total_message_latency_mean": 37.36415688480177,
+    "duplicate_or_failed_delegations_mean": 0.0
+  },
+  "delegation_disabled": {
+    "n_seeds": 15,
+    "mean_utility": {
+      "mean": -0.10407320297692156,
+      "ci_lo": -0.11040383141137358,
+      "ci_hi": -0.0973564738372977
+    },
+    "mean_regret": {
+      "mean": 0.028392540338489505,
+      "ci_lo": 0.026668077320728612,
+      "ci_hi": 0.030108595054232613
+    },
+    "fleet_reasoning_call_rate_mean": 0.1603111111111111,
+    "total_messages_mean": 0.0,
+    "total_message_latency_mean": 0.0,
+    "duplicate_or_failed_delegations_mean": 0.0
+  },
+  "paired_utility_diff_enabled_minus_disabled": {
+    "mean": -0.08082421718662225,
+    "ci_lo": -0.09544781596979304,
+    "ci_hi": -0.06610231382478006
+  }
+}

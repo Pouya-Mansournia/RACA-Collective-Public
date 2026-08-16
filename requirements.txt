@@ -1,0 +1,5 @@
+# Exact-match environment for anyone who wants to reproduce results bit-for-bit.
+# All simulator randomness derives from numpy; a different numpy version could in
+# principle shift floating-point results at the margins, so this pins the exact
+# version this repository's results were generated and verified against.
+numpy==2.5.1

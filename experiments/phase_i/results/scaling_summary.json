@@ -1,0 +1,30 @@
+{
+  "10": {
+    "n_seeds": 4,
+    "mean_utility_mean": -0.23722424498365408,
+    "delegate_in_gini_mean": 0.7030368557307531,
+    "delegate_in_gini_std": 0.06617319486814269,
+    "messages_per_decision_mean": 0.7982499999999999,
+    "message_latency_per_decision_mean": 0.03991094377536502
+  },
+  "25": {
+    "n_seeds": 4,
+    "mean_utility_mean": -0.3137056555149357,
+    "delegate_in_gini_mean": 0.6644178976769226,
+    "delegate_in_gini_std": 0.006839589320111565,
+    "messages_per_decision_mean": 1.17605,
+    "message_latency_per_decision_mean": 0.058833754229726955
+  },
+  "50": {
+    "n_seeds": 4,
+    "mean_utility_mean": -0.33480030456948906,
+    "delegate_in_gini_mean": 0.6553999094072153,
+    "delegate_in_gini_std": 0.004356527120689085,
+    "messages_per_decision_mean": 1.29155,
+    "message_latency_per_decision_mean": 0.06460807743259521
+  },
+  "see_also": {
+    "file": "experiments/phase_i/results/scaling_n100_summary.json",
+    "note": "Adds N=100 fleet size on a fresh seed pool, extending this N=10/25/50 sweep. Confirms the same trends (utility worsens, Gini weakens with scale) continue through N=100."
+  }
+}

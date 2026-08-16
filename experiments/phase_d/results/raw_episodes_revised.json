@@ -1,0 +1,426 @@
+{
+  "delegation_enabled": [
+    {
+      "seed": 19000,
+      "delegation_enabled": true,
+      "mean_utility": -0.02787995280324416,
+      "mean_regret": 0.02488352995479092,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19001,
+      "delegation_enabled": true,
+      "mean_utility": -0.03901213675942177,
+      "mean_regret": 0.03596730848630758,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19002,
+      "delegation_enabled": true,
+      "mean_utility": -0.027732975871282692,
+      "mean_regret": 0.02434569546851957,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19003,
+      "delegation_enabled": true,
+      "mean_utility": -0.024614586283308332,
+      "mean_regret": 0.021612545500444138,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19004,
+      "delegation_enabled": true,
+      "mean_utility": -0.025293062540725646,
+      "mean_regret": 0.021665686547047647,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19005,
+      "delegation_enabled": true,
+      "mean_utility": -0.0415969397853662,
+      "mean_regret": 0.03860646935013007,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19006,
+      "delegation_enabled": true,
+      "mean_utility": -0.029724060299692743,
+      "mean_regret": 0.026750007052279805,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19007,
+      "delegation_enabled": true,
+      "mean_utility": -0.027326857382884668,
+      "mean_regret": 0.02430743796825359,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19008,
+      "delegation_enabled": true,
+      "mean_utility": -0.021214755142790986,
+      "mean_regret": 0.01818953623039527,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19009,
+      "delegation_enabled": true,
+      "mean_utility": -0.022577408919040955,
+      "mean_regret": 0.01901840610845108,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19010,
+      "delegation_enabled": true,
+      "mean_utility": -0.021777150465979948,
+      "mean_regret": 0.018805807552683296,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19011,
+      "delegation_enabled": true,
+      "mean_utility": -0.030573096121484507,
+      "mean_regret": 0.027544911842326786,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19012,
+      "delegation_enabled": true,
+      "mean_utility": -0.027130991056514734,
+      "mean_regret": 0.02411762470965647,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19013,
+      "delegation_enabled": true,
+      "mean_utility": -0.025556226842289174,
+      "mean_regret": 0.022246826817066714,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19014,
+      "delegation_enabled": true,
+      "mean_utility": -0.025522813901900178,
+      "mean_regret": 0.02254431693006145,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    }
+  ],
+  "delegation_disabled": [
+    {
+      "seed": 19000,
+      "delegation_enabled": false,
+      "mean_utility": -0.02787995280324416,
+      "mean_regret": 0.02488352995479092,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19001,
+      "delegation_enabled": false,
+      "mean_utility": -0.03901213675942177,
+      "mean_regret": 0.03596730848630758,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19002,
+      "delegation_enabled": false,
+      "mean_utility": -0.027732975871282692,
+      "mean_regret": 0.02434569546851957,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19003,
+      "delegation_enabled": false,
+      "mean_utility": -0.024614586283308332,
+      "mean_regret": 0.021612545500444138,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19004,
+      "delegation_enabled": false,
+      "mean_utility": -0.025293062540725646,
+      "mean_regret": 0.021665686547047647,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19005,
+      "delegation_enabled": false,
+      "mean_utility": -0.0415969397853662,
+      "mean_regret": 0.03860646935013007,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19006,
+      "delegation_enabled": false,
+      "mean_utility": -0.029724060299692743,
+      "mean_regret": 0.026750007052279805,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19007,
+      "delegation_enabled": false,
+      "mean_utility": -0.027326857382884668,
+      "mean_regret": 0.02430743796825359,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19008,
+      "delegation_enabled": false,
+      "mean_utility": -0.021214755142790986,
+      "mean_regret": 0.01818953623039527,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19009,
+      "delegation_enabled": false,
+      "mean_utility": -0.022577408919040955,
+      "mean_regret": 0.01901840610845108,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19010,
+      "delegation_enabled": false,
+      "mean_utility": -0.021777150465979948,
+      "mean_regret": 0.018805807552683296,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19011,
+      "delegation_enabled": false,
+      "mean_utility": -0.030573096121484507,
+      "mean_regret": 0.027544911842326786,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19012,
+      "delegation_enabled": false,
+      "mean_utility": -0.027130991056514734,
+      "mean_regret": 0.02411762470965647,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19013,
+      "delegation_enabled": false,
+      "mean_utility": -0.025556226842289174,
+      "mean_regret": 0.022246826817066714,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    },
+    {
+      "seed": 19014,
+      "delegation_enabled": false,
+      "mean_utility": -0.025522813901900178,
+      "mean_regret": 0.02254431693006145,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "duplicate_or_failed_delegations": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+phase,condition,metric,value,ci_lo,ci_hi,source_file
+Phase 1 (baselines),small_dense__B0_always_deterministic,mean_regret,0.009127450372649401,0.007821910787497914,0.010604594565168539,experiments/phase_a/summary.json
+Phase 1 (baselines),small_dense__B1_always_reasoning,mean_regret,0.019277503495781636,0.015252687282668605,0.02319453959032449,experiments/phase_a/summary.json
+Phase 1 (baselines),small_dense__B2_heuristic,mean_regret,0.010858633841301556,0.009129591133963808,0.012789434263864636,experiments/phase_a/summary.json
+Phase 1 (baselines),large_sparse__B0_always_deterministic,mean_regret,0.0038593905189236457,0.003458996330238833,0.00425108684325518,experiments/phase_a/summary.json
+Phase 1 (baselines),large_sparse__B1_always_reasoning,mean_regret,0.010908413553020028,0.00855442950309245,0.013695357664982059,experiments/phase_a/summary.json
+Phase 1 (baselines),large_sparse__B2_heuristic,mean_regret,0.00672167718613282,0.005813967595932853,0.007770084509049077,experiments/phase_a/summary.json
+Phase 5 (memory C0-C3),C0_no_shared_memory,mean_utility,-0.10026106164658334,-0.10699003215631563,-0.09344744242938545,experiments/phase_e/summary.json
+Phase 5 (memory C0-C3),C1_global_shared_memory,mean_utility,-0.23466667514680167,-0.25513600853886326,-0.21173835499088534,experiments/phase_e/summary.json
+Phase 5 (memory C0-C3),C2_peer_to_peer_selective,mean_utility,-0.1750893099154868,-0.19925397953855095,-0.15149310839205557,experiments/phase_e/summary.json
+Phase 5 (memory C0-C3),C3_local_memory_only,mean_utility,-0.1719599768889632,-0.19475053180133478,-0.14894875745552846,experiments/phase_e/summary.json
+Phase 11 (ablation matrix),A0_independent_B2_heuristic,mean_utility,-0.3361143179277135,-0.3417194417008555,-0.3296960500171607,experiments/phase_k/results/ablation_summary.json
+Phase 11 (ablation matrix),A1_independent_B3_learned,mean_utility,-0.025725406612006202,-0.028332653649528198,-0.02327152390333925,experiments/phase_k/results/ablation_summary.json
+Phase 11 (ablation matrix),A3_distributed_no_delegation_calibrated,mean_utility,-0.025822795415548116,-0.028374549744782724,-0.02348154230985335,experiments/phase_k/results/ablation_summary.json
+Phase 11 (ablation matrix),A4_delegation_frozen_memory,mean_utility,-0.025822795415548116,-0.028374549744782724,-0.02348154230985335,experiments/phase_k/results/ablation_summary.json
+Phase 11 (ablation matrix),A5_delegation_local_memory,mean_utility,-0.025822795415548116,-0.028374549744782724,-0.02348154230985335,experiments/phase_k/results/ablation_summary.json
+Phase 11 (ablation matrix),A6_delegation_shared_memory,mean_utility,-0.025822795415548116,-0.028374549744782724,-0.02348154230985335,experiments/phase_k/results/ablation_summary.json
+Phase 12 (A2/A7 ablation),A0_independent_B2_heuristic,mean_utility,-0.33750669931119043,-0.34330989769380865,-0.331895945390019,experiments/phase_l/results/ablation_full_summary.json
+Phase 12 (A2/A7 ablation),A1_independent_B3_learned,mean_utility,-0.02970992605878947,-0.039785362460581834,-0.02366361817264999,experiments/phase_l/results/ablation_full_summary.json
+Phase 12 (A2/A7 ablation),A2_centralized_manager,mean_utility,-0.02970992605878947,-0.039785362460581834,-0.02366361817264999,experiments/phase_l/results/ablation_full_summary.json
+Phase 12 (A2/A7 ablation),A3_distributed_no_delegation_calibrated,mean_utility,-0.024953081509716746,-0.02652595527832947,-0.023234397709223788,experiments/phase_l/results/ablation_full_summary.json
+Phase 12 (A2/A7 ablation),A4_delegation_frozen_memory,mean_utility,-0.024953081509716746,-0.02652595527832947,-0.023234397709223788,experiments/phase_l/results/ablation_full_summary.json
+Phase 12 (A2/A7 ablation),A5_delegation_local_memory,mean_utility,-0.024953081509716746,-0.02652595527832947,-0.023234397709223788,experiments/phase_l/results/ablation_full_summary.json
+Phase 12 (A2/A7 ablation),A6_delegation_shared_memory,mean_utility,-0.024953081509716746,-0.02652595527832947,-0.023234397709223788,experiments/phase_l/results/ablation_full_summary.json
+Phase 12 (A2/A7 ablation),A7_full_raca_collective,mean_utility,-0.02997534971142333,-0.0405816334184834,-0.02366361817264999,experiments/phase_l/results/ablation_full_summary.json
+Phase 10 (heterogeneity H0/H1),H0_homogeneous,mean_utility,-0.24033068623504747,,,experiments/phase_j/results/heterogeneity_summary.json
+Phase 10 (heterogeneity H0/H1),H1_heterogeneous,mean_utility,-0.154063901716087,,,experiments/phase_j/results/heterogeneity_summary.json
+Phase 9 (scaling),N=10,mean_utility_mean,-0.23722424498365408,,,experiments/phase_i/results/scaling_summary.json
+Phase 9 (scaling),N=25,mean_utility_mean,-0.3137056555149357,,,experiments/phase_i/results/scaling_summary.json
+Phase 9 (scaling),N=50,mean_utility_mean,-0.33480030456948906,,,experiments/phase_i/results/scaling_summary.json
+Phase 9 (scaling),N=see_also,mean_utility_mean,,,,experiments/phase_i/results/scaling_summary.json
+Phase 9 revised (N=100),N=100,mean_utility_mean,-0.3482815134860023,,,experiments/phase_i/results/scaling_n100_summary.json
+"Phase 8 (perturbation, n=6)",hub_removal,mean_utility_drop,0.029227854777745834,,,experiments/phase_h/results/perturbation_summary.json
+"Phase 8 revised (perturbation, n=30)",hub_removal,mean_utility_drop,0.02262094049894013,0.016549819954191792,0.028836097260863877,experiments/phase_h/results/perturbation_summary_30seeds.json

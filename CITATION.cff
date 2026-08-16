@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its results, please cite it as below. A
+  manuscript describing this research program is in preparation and not yet
+  published; this entry will be updated with a DOI/venue once available.
+type: software
+title: RACA-Collective
+abstract: >-
+  From Reasoning Allocation to Behavioral Specialization: boundary results
+  in multi-robot systems. Studies whether a fleet can learn when reasoning
+  is worth its cost, delegate reasoning to peers, and develop behavioral
+  specialization without predefined roles. Paper 3 in a research arc that
+  started with warehouse-amr-emergent-agents (Paper 1) and RACA (Paper 2).
+authors:
+  - family-names: "Mansournia"
+    given-names: "Pouya"
+    orcid: "https://orcid.org/0009-0003-1515-6550"
+license: MIT
+version: 0.1.0
+date-released: "2026-08-15"
+keywords:
+  - multi-robot systems
+  - value of computation
+  - outcome-aware routing
+  - cognitive delegation
+  - behavioral specialization
+  - emergent collective cognition

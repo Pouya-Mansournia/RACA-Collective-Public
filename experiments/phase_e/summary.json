@@ -1,0 +1,58 @@
+{
+  "C0_no_shared_memory": {
+    "n_seeds": 15,
+    "mean_utility": {
+      "mean": -0.10026106164658334,
+      "ci_lo": -0.10699003215631563,
+      "ci_hi": -0.09344744242938545
+    },
+    "mean_regret_avg": 0.029141578657744815,
+    "fleet_reasoning_call_rate_mean": 0.1506222222222222,
+    "total_messages_mean": 46.266666666666666,
+    "share_events_mean": 0.0,
+    "distinct_memory_entries_mean": 90.0,
+    "n_memory_instances": 10
+  },
+  "C1_global_shared_memory": {
+    "n_seeds": 15,
+    "mean_utility": {
+      "mean": -0.23466667514680167,
+      "ci_lo": -0.25513600853886326,
+      "ci_hi": -0.21173835499088534
+    },
+    "mean_regret_avg": 0.038459962391684734,
+    "fleet_reasoning_call_rate_mean": 0.41519999999999996,
+    "total_messages_mean": 1183.4666666666667,
+    "share_events_mean": 0.0,
+    "distinct_memory_entries_mean": 10.0,
+    "n_memory_instances": 1
+  },
+  "C2_peer_to_peer_selective": {
+    "n_seeds": 15,
+    "mean_utility": {
+      "mean": -0.1750893099154868,
+      "ci_lo": -0.19925397953855095,
+      "ci_hi": -0.15149310839205557
+    },
+    "mean_regret_avg": 0.034226305111546076,
+    "fleet_reasoning_call_rate_mean": 0.2982666666666666,
+    "total_messages_mean": 695.4666666666667,
+    "share_events_mean": 13.066666666666666,
+    "distinct_memory_entries_mean": 90.0,
+    "n_memory_instances": 10
+  },
+  "C3_local_memory_only": {
+    "n_seeds": 15,
+    "mean_utility": {
+      "mean": -0.1719599768889632,
+      "ci_lo": -0.19475053180133478,
+      "ci_hi": -0.14894875745552846
+    },
+    "mean_regret_avg": 0.03530555162116687,
+    "fleet_reasoning_call_rate_mean": 0.28955555555555557,
+    "total_messages_mean": 644.9333333333333,
+    "share_events_mean": 0.0,
+    "distinct_memory_entries_mean": 90.0,
+    "n_memory_instances": 10
+  }
+}

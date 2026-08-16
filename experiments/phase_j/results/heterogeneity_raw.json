@@ -1,0 +1,234 @@
+{
+  "H0_homogeneous": [
+    {
+      "seed": 23000,
+      "heterogeneous": false,
+      "mean_utility": -0.2817195763233626,
+      "delegate_in_gini": 0.6169128156264888,
+      "delegate_in_counts": [
+        595,
+        601,
+        461,
+        314,
+        128,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": null
+    },
+    {
+      "seed": 23001,
+      "heterogeneous": false,
+      "mean_utility": -0.2671055257149929,
+      "delegate_in_gini": 0.668904958677686,
+      "delegate_in_counts": [
+        649,
+        605,
+        474,
+        148,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": null
+    },
+    {
+      "seed": 23002,
+      "heterogeneous": false,
+      "mean_utility": -0.1807148852324532,
+      "delegate_in_gini": 0.7923408845738942,
+      "delegate_in_counts": [
+        519,
+        317,
+        91,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": null
+    },
+    {
+      "seed": 23003,
+      "heterogeneous": false,
+      "mean_utility": -0.21935699266380765,
+      "delegate_in_gini": 0.7339887640449438,
+      "delegate_in_counts": [
+        636,
+        455,
+        272,
+        61,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": null
+    },
+    {
+      "seed": 23004,
+      "heterogeneous": false,
+      "mean_utility": -0.22202811425632807,
+      "delegate_in_gini": 0.7201398601398601,
+      "delegate_in_counts": [
+        555,
+        535,
+        269,
+        71,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": null
+    },
+    {
+      "seed": 23005,
+      "heterogeneous": false,
+      "mean_utility": -0.2710590232193405,
+      "delegate_in_gini": 0.6769984528107271,
+      "delegate_in_counts": [
+        683,
+        592,
+        423,
+        240,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": null
+    }
+  ],
+  "H1_heterogeneous": [
+    {
+      "seed": 23000,
+      "heterogeneous": true,
+      "mean_utility": -0.18560044879329593,
+      "delegate_in_gini": 0.6943741209563995,
+      "delegate_in_counts": [
+        733,
+        732,
+        570,
+        71,
+        27,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": 0.9540553211439288
+    },
+    {
+      "seed": 23001,
+      "heterogeneous": true,
+      "mean_utility": -0.18723311772052278,
+      "delegate_in_gini": 0.6913978494623656,
+      "delegate_in_counts": [
+        710,
+        755,
+        524,
+        127,
+        23,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": 0.9298737727910238
+    },
+    {
+      "seed": 23002,
+      "heterogeneous": true,
+      "mean_utility": -0.12230104264618832,
+      "delegate_in_gini": 0.8175025588536335,
+      "delegate_in_counts": [
+        587,
+        377,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": 1.0
+    },
+    {
+      "seed": 23003,
+      "heterogeneous": true,
+      "mean_utility": -0.136189496924006,
+      "delegate_in_gini": 0.7765787370103917,
+      "delegate_in_counts": [
+        687,
+        362,
+        196,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": 0.9952038369304557
+    },
+    {
+      "seed": 23004,
+      "heterogeneous": true,
+      "mean_utility": -0.1267374143042236,
+      "delegate_in_gini": 0.798886827458256,
+      "delegate_in_counts": [
+        575,
+        461,
+        42,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": 1.0
+    },
+    {
+      "seed": 23005,
+      "heterogeneous": true,
+      "mean_utility": -0.16632188990828528,
+      "delegate_in_gini": 0.7101861993428258,
+      "delegate_in_counts": [
+        691,
+        590,
+        492,
+        53,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fast_robot_delegate_in_share": 0.9709748083242059
+    }
+  ]
+}

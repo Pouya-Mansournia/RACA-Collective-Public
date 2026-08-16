@@ -1,0 +1,40 @@
+{
+  "calibrated_params": {
+    "self_load_penalty": 3.0,
+    "lambda_msg": 0.0,
+    "self_quality_factor": 0.9,
+    "peer_capacity": 2
+  },
+  "b3_tau": 0.05,
+  "n_seeds": 8,
+  "A0_independent_B2_heuristic": {
+    "mean_utility": -0.3361143179277135,
+    "ci_lo": -0.3417194417008555,
+    "ci_hi": -0.3296960500171607
+  },
+  "A1_independent_B3_learned": {
+    "mean_utility": -0.025725406612006202,
+    "ci_lo": -0.028332653649528198,
+    "ci_hi": -0.02327152390333925
+  },
+  "A3_distributed_no_delegation_calibrated": {
+    "mean_utility": -0.025822795415548116,
+    "ci_lo": -0.028374549744782724,
+    "ci_hi": -0.02348154230985335
+  },
+  "A4_delegation_frozen_memory": {
+    "mean_utility": -0.025822795415548116,
+    "ci_lo": -0.028374549744782724,
+    "ci_hi": -0.02348154230985335
+  },
+  "A5_delegation_local_memory": {
+    "mean_utility": -0.025822795415548116,
+    "ci_lo": -0.028374549744782724,
+    "ci_hi": -0.02348154230985335
+  },
+  "A6_delegation_shared_memory": {
+    "mean_utility": -0.025822795415548116,
+    "ci_lo": -0.028374549744782724,
+    "ci_hi": -0.02348154230985335
+  }
+}

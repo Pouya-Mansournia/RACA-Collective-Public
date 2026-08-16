@@ -1,0 +1,910 @@
+{
+  "C0_no_shared_memory": [
+    {
+      "seed": 20000,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.019603696198026734,
+      "mean_regret": 0.016164505481673634,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20001,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.024199638378771912,
+      "mean_regret": 0.020926310811047545,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20002,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.021394379459264614,
+      "mean_regret": 0.017787461026253983,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20003,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.020355804085032507,
+      "mean_regret": 0.016330020301413537,
+      "fleet_reasoning_call_rate": 0.002,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20004,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.025356256453250476,
+      "mean_regret": 0.02225899161933604,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20005,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.027728890374093765,
+      "mean_regret": 0.02465293454436945,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20006,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.020514293300205034,
+      "mean_regret": 0.017473842614007504,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20007,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.026018015010929034,
+      "mean_regret": 0.02259145555227638,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20008,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.026732527303023227,
+      "mean_regret": 0.02371582217701705,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20009,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.028185849785914787,
+      "mean_regret": 0.02437223620960782,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20010,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.021450982698926414,
+      "mean_regret": 0.018435435994955122,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20011,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.030675957590939586,
+      "mean_regret": 0.02767128021220313,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20012,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.026116734048558916,
+      "mean_regret": 0.022782263740277173,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20013,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.025295765072040306,
+      "mean_regret": 0.022303948475671107,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20014,
+      "condition": "C0_no_shared_memory",
+      "mean_utility": -0.023674159046918858,
+      "mean_regret": 0.020673791459476582,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    }
+  ],
+  "C1_global_shared_memory": [
+    {
+      "seed": 20000,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.019603696198026734,
+      "mean_regret": 0.016164505481673634,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20001,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.024199638378771912,
+      "mean_regret": 0.020926310811047545,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20002,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.021394379459264614,
+      "mean_regret": 0.017787461026253983,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20003,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.020355804085032507,
+      "mean_regret": 0.016330020301413537,
+      "fleet_reasoning_call_rate": 0.002,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20004,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.025356256453250476,
+      "mean_regret": 0.02225899161933604,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20005,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.027728890374093765,
+      "mean_regret": 0.02465293454436945,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20006,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.020514293300205034,
+      "mean_regret": 0.017473842614007504,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20007,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.026018015010929034,
+      "mean_regret": 0.02259145555227638,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20008,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.026732527303023227,
+      "mean_regret": 0.02371582217701705,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20009,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.028185849785914787,
+      "mean_regret": 0.02437223620960782,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20010,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.021450982698926414,
+      "mean_regret": 0.018435435994955122,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20011,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.030675957590939586,
+      "mean_regret": 0.02767128021220313,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20012,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.026116734048558916,
+      "mean_regret": 0.022782263740277173,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20013,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.025295765072040306,
+      "mean_regret": 0.022303948475671107,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    },
+    {
+      "seed": 20014,
+      "condition": "C1_global_shared_memory",
+      "mean_utility": -0.023674159046918858,
+      "mean_regret": 0.020673791459476582,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 1
+    }
+  ],
+  "C2_peer_to_peer_selective": [
+    {
+      "seed": 20000,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.019603696198026734,
+      "mean_regret": 0.016164505481673634,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 15,
+        "total_message_latency": 0.7201032106586677,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 15,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20001,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.024199638378771912,
+      "mean_regret": 0.020926310811047545,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 19,
+        "total_message_latency": 0.9966060004862288,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 19,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20002,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.021394379459264614,
+      "mean_regret": 0.017787461026253983,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 12,
+        "total_message_latency": 0.5804226561998507,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 12,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20003,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.020355804085032507,
+      "mean_regret": 0.016330020301413537,
+      "fleet_reasoning_call_rate": 0.002,
+      "communication": {
+        "total_messages": 12,
+        "total_message_latency": 0.5351126419755007,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 12,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20004,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.025356256453250476,
+      "mean_regret": 0.02225899161933604,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 15,
+        "total_message_latency": 0.7490196688384025,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 15,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20005,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.027728890374093765,
+      "mean_regret": 0.02465293454436945,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 15,
+        "total_message_latency": 0.7058720758650361,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 15,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20006,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.020514293300205034,
+      "mean_regret": 0.017473842614007504,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 16,
+        "total_message_latency": 0.8169679752147874,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 16,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20007,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.026018015010929034,
+      "mean_regret": 0.02259145555227638,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 20,
+        "total_message_latency": 0.9027266418317221,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 20,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20008,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.026732527303023227,
+      "mean_regret": 0.02371582217701705,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 16,
+        "total_message_latency": 0.8744805739534411,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 16,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20009,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.028185849785914787,
+      "mean_regret": 0.02437223620960782,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 17,
+        "total_message_latency": 0.772335982783207,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 17,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20010,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.021450982698926414,
+      "mean_regret": 0.018435435994955122,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 18,
+        "total_message_latency": 0.9662574275642736,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 18,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20011,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.030675957590939586,
+      "mean_regret": 0.02767128021220313,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 10,
+        "total_message_latency": 0.41987780612511627,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 10,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20012,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.026116734048558916,
+      "mean_regret": 0.022782263740277173,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 18,
+        "total_message_latency": 0.8767436342087894,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 18,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20013,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.025295765072040306,
+      "mean_regret": 0.022303948475671107,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 13,
+        "total_message_latency": 0.6533934420011898,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 13,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20014,
+      "condition": "C2_peer_to_peer_selective",
+      "mean_utility": -0.023674159046918858,
+      "mean_regret": 0.020673791459476582,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 13,
+        "total_message_latency": 0.6245462095031299,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 13,
+      "n_memory_instances": 10
+    }
+  ],
+  "C3_local_memory_only": [
+    {
+      "seed": 20000,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.019603696198026734,
+      "mean_regret": 0.016164505481673634,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20001,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.024199638378771912,
+      "mean_regret": 0.020926310811047545,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20002,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.021394379459264614,
+      "mean_regret": 0.017787461026253983,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20003,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.020355804085032507,
+      "mean_regret": 0.016330020301413537,
+      "fleet_reasoning_call_rate": 0.002,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20004,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.025356256453250476,
+      "mean_regret": 0.02225899161933604,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20005,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.027728890374093765,
+      "mean_regret": 0.02465293454436945,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20006,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.020514293300205034,
+      "mean_regret": 0.017473842614007504,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20007,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.026018015010929034,
+      "mean_regret": 0.02259145555227638,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20008,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.026732527303023227,
+      "mean_regret": 0.02371582217701705,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20009,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.028185849785914787,
+      "mean_regret": 0.02437223620960782,
+      "fleet_reasoning_call_rate": 0.0013333333333333333,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20010,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.021450982698926414,
+      "mean_regret": 0.018435435994955122,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20011,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.030675957590939586,
+      "mean_regret": 0.02767128021220313,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20012,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.026116734048558916,
+      "mean_regret": 0.022782263740277173,
+      "fleet_reasoning_call_rate": 0.0006666666666666666,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20013,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.025295765072040306,
+      "mean_regret": 0.022303948475671107,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    },
+    {
+      "seed": 20014,
+      "condition": "C3_local_memory_only",
+      "mean_utility": -0.023674159046918858,
+      "mean_regret": 0.020673791459476582,
+      "fleet_reasoning_call_rate": 0.0,
+      "communication": {
+        "total_messages": 0,
+        "total_message_latency": 0.0,
+        "rejected_requests": 0,
+        "duplicate_requests": 0
+      },
+      "share_events": 0,
+      "n_memory_instances": 10
+    }
+  ]
+}

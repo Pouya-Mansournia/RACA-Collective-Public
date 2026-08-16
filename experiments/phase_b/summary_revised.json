@@ -1,0 +1,78 @@
+{
+  "small_dense": {
+    "oracle_escalation_rate": 0.020625,
+    "oracle_escalation_rate_hard_decisions": 0.0005927682276229994,
+    "oracle_escalation_rate_easy_decisions": 0.025978140345319183,
+    "n_samples": 8000,
+    "n_hard": 1687,
+    "hard_fraction_observed": 0.210875,
+    "utility_B0": {
+      "mean": -0.03134105438901753,
+      "ci_lo": -0.0338828855019576,
+      "ci_hi": -0.028831641805181468
+    },
+    "utility_B1": {
+      "mean": -0.49196882156226146,
+      "ci_lo": -0.497598149724412,
+      "ci_hi": -0.48638839453463
+    },
+    "utility_B2": {
+      "mean": -0.30608111079422007,
+      "ci_lo": -0.312771468738885,
+      "ci_hi": -0.2989570693204256
+    },
+    "utility_Oracle": {
+      "mean": -0.026265525319915217,
+      "ci_lo": -0.02821290449135945,
+      "ci_hi": -0.024339418331895717
+    },
+    "value_of_reasoning_oracle_minus_b0": {
+      "mean": 0.005075529069102314,
+      "ci_lo": 0.004089356535840015,
+      "ci_hi": 0.00609375928165872
+    },
+    "b2_minus_b0": {
+      "mean": -0.2747400564052026,
+      "ci_lo": -0.2820089507100215,
+      "ci_hi": -0.2680328602206293
+    }
+  },
+  "large_sparse": {
+    "oracle_escalation_rate": 0.011125,
+    "oracle_escalation_rate_hard_decisions": 0.0,
+    "oracle_escalation_rate_easy_decisions": 0.013971742543171115,
+    "n_samples": 8000,
+    "n_hard": 1630,
+    "hard_fraction_observed": 0.20375,
+    "utility_B0": {
+      "mean": -0.016344982147916808,
+      "ci_lo": -0.018206673033230213,
+      "ci_hi": -0.014632614594950692
+    },
+    "utility_B1": {
+      "mean": -0.48841609326025515,
+      "ci_lo": -0.4966670764951581,
+      "ci_hi": -0.48093011981983735
+    },
+    "utility_B2": {
+      "mean": -0.37851622695833875,
+      "ci_lo": -0.3874703651379629,
+      "ci_hi": -0.36965323823172264
+    },
+    "utility_Oracle": {
+      "mean": -0.013838567570456746,
+      "ci_lo": -0.015209366092976032,
+      "ci_hi": -0.01254523863468104
+    },
+    "value_of_reasoning_oracle_minus_b0": {
+      "mean": 0.002506414577460064,
+      "ci_lo": 0.0018459753135106137,
+      "ci_hi": 0.003194612395466302
+    },
+    "b2_minus_b0": {
+      "mean": -0.36217124481042184,
+      "ci_lo": -0.3715398701698745,
+      "ci_hi": -0.3526695629497626
+    }
+  }
+}
