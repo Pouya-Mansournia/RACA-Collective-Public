@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.13%20%7C%203.14-blue.svg)](pyproject.toml)
 
-From Reasoning Allocation to Behavioral Specialization: Boundary Results in Multi-Robot Systems.
+Reasoning Allocation and Delegation in a Stylized Multi-Robot Fleet: Sparsity, Classifier Collapse, and Path-Dependent Concentration.
 
 This is Paper 3 in a research arc that started with:
 
@@ -17,13 +17,13 @@ This repository contains the implementation, test suite, experiment scripts, arc
 
 ## Headline findings
 
-The Offline Oracle shows positive-value reasoning opportunities are intrinsically sparse in the evaluated environment (escalation rate 0.14-2.06% across regimes). Within that sparse-opportunity regime, a learned binary router (B3) avoided a hand-tuned heuristic's over-escalation and looked, on an aggregate regret metric, like it had learned when reasoning helps. Direct verification of the archived output shows otherwise: on every held-out, in-distribution evaluation, B3's escalation rate is exactly 0.0% and its utility and regret are numerically identical to a policy that never reasons at all. The router did not learn to discriminate the rare decisions worth reasoning about; it collapsed to the always-deterministic policy. This is a sparsity/learnability boundary result, not a positive routing result, and it should not be read as one.
+The Offline Oracle shows positive-value reasoning opportunities are sparse under the evaluated generator (escalation rate 0.14-2.06% across regimes). Within that sparse-opportunity regime, a learned binary router (B3) avoided a hand-tuned heuristic's over-escalation and looked, on an aggregate regret metric, like it had learned when reasoning helps. Direct verification of the archived output shows otherwise: on every held-out, in-distribution evaluation, B3's escalation rate is exactly 0.0% and its utility and regret are numerically identical to a policy that never reasons at all. The router did not learn to discriminate the rare decisions worth reasoning about; it collapsed to the always-deterministic policy. This is a domain-bounded sparsity/learnability result, not a positive routing result, and it should not be read as one.
 
 Peer-to-peer cognitive delegation produces no measurable benefit in calibrated homogeneous fleets. It shows a benefit under a designed capability asymmetry (heterogeneous fleet), but no matched no-delegation control was run for that condition, so the benefit cannot be attributed to delegation itself rather than to the advantaged robots' properties alone.
 
 Repeated interaction under an uncalibrated delegation policy produces a real, path-dependent concentration of delegated work. A matched, same-seed control comparison attributes roughly one third of the originally observed concentration to two implementation artifacts (an RNG-seeding pattern and deterministic tie-breaking), not the majority an earlier internal narrative had suggested. The residual that survives these controls is statistically real (non-overlapping confidence intervals against a null model) but does not satisfy this project's own eight-criterion test for emergent collective cognition: it delivers no measurable fleet-level benefit once the routing gate is calibrated.
 
-The manuscript describing this work in full is in preparation; this repository will be updated with a citation once it is available.
+The V5 source manuscript and a clean Overleaf package are available under `paper/`. This manuscript has not been peer reviewed or accepted for publication.
 
 ## Architecture
 
@@ -80,6 +80,7 @@ experiments/      per-phase experiment scripts and archived results
 analysis/         result analysis scripts and derived summary tables/figures
 tests/
 reproducibility/  entry point for re-running the experiments and checks
+paper/            V5 manuscript source and clean Overleaf ZIP
 ```
 
 ## Quick start
@@ -100,7 +101,7 @@ See `reproducibility/README.md` for setup and the exact commands to re-run each 
 
 ## Citation
 
-A manuscript describing this work in full is in preparation; this repository will be updated with a citation once it is available. Until then, cite the software itself via `CITATION.cff` or the DOI badge above:
+The V5 manuscript is a submission draft, not a peer-reviewed publication. Until a publication citation is available, cite the software itself via `CITATION.cff` or the DOI badge above:
 
 ```bibtex
 @software{mansournia_raca_collective,
