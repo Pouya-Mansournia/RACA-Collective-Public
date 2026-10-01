@@ -10,10 +10,10 @@ docs/RESEARCH_LOG.md; previously experiments/**/results/ was entirely gitignored
       heterogeneity, plus the scaling and perturbation conditions) with its headline
       utility/regret number and the source file it came from.
   (b) analysis/output/flip_rate_vs_injection_depth.png (or .md table if matplotlib is
-      unavailable) -- the flip-rate-vs-injection-depth figure proposed in
-      paper/MANUSCRIPT_NOTES.md Section 7, from experiments/phase_o/results/injection_depth_summary.json.
+      unavailable) -- the flip-rate-vs-injection-depth Phase O figure, from
+      experiments/phase_o/results/injection_depth_summary.json.
   (c) analysis/output/gini_vs_peer_capacity.png (or .md table) -- the Gini-vs-peer_capacity
-      figure proposed in the same section, from
+      Phase O capacity figure, from
       experiments/phase_o/results/peer_capacity_ablation_summary.json.
 
 Matplotlib is used only here (analysis/), never in src/, and only if available -- this script

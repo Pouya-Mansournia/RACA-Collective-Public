@@ -1,8 +1,6 @@
 cff-version: 1.2.0
 message: >-
-  If you use this software or its results, please cite it as below. A
-  manuscript describing this research program is in preparation and not yet
-  published; this entry will be updated with a venue once available.
+  If you use this software or its results, please cite it as below.
 type: software
 title: RACA-Collective
 doi: 10.5281/zenodo.21960745
