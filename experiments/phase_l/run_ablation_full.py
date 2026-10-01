@@ -194,11 +194,13 @@ def run_centralized_episode(seed: int, manager: CentralizedManager, config=CONFI
         t0 = time.perf_counter() if measure_time else None
         observations = {}
         candidates_by_rid = {}
+        report_latency_by_rid = {}
         for rid in range(n_robots):
             obs = sim.make_observation(rid, det_backend.estimate)
             observations[rid] = obs
             candidates_by_rid[rid] = obs.candidates
-            bus.send(rid, -1, "report_to_center", 1, rng_ctrl)  # robot -> center
+            report = bus.send(rid, -1, "report_to_center", 1, rng_ctrl)  # robot -> center
+            report_latency_by_rid[rid] = report.latency
 
         assignments = manager.assign_round(observations)
 
@@ -209,15 +211,16 @@ def run_centralized_episode(seed: int, manager: CentralizedManager, config=CONFI
             min_cost = min(true_costs)
             det_idx = int(np.argmin(obs.det_estimate_costs))
             action, target = assignments[rid]
-            bus.send(-1, rid, "assignment", 1, rng_ctrl)  # center -> robot
+            assignment = bus.send(-1, rid, "assignment", 1, rng_ctrl)  # center -> robot
+            fixed_comm_latency = report_latency_by_rid[rid] + assignment.latency
 
             if action == "deterministic":
-                idx, latency = det_idx, obs.det_estimate_latency
+                idx, latency = det_idx, obs.det_estimate_latency + fixed_comm_latency
                 regret = candidates[idx].true_cost - min_cost
                 used_reasoning = False
             elif action == "reason_self":
                 idx, r_latency = reasoning_backend.decide(candidates, sim.robot_rngs[rid])
-                latency = obs.det_estimate_latency + r_latency
+                latency = obs.det_estimate_latency + fixed_comm_latency + r_latency
                 regret = candidates[idx].true_cost - min_cost
                 used_reasoning = True
                 success = regret <= (candidates[det_idx].true_cost - min_cost)
@@ -226,7 +229,7 @@ def run_centralized_episode(seed: int, manager: CentralizedManager, config=CONFI
                 req = bus.send(rid, target, "reassign_request", len(candidates), rng_ctrl)
                 idx, r_latency = reasoning_backend.decide(candidates, sim.robot_rngs[target])
                 resp = bus.send(target, rid, "reassign_response", 1, rng_ctrl)
-                latency = obs.det_estimate_latency + req.latency + r_latency + resp.latency
+                latency = obs.det_estimate_latency + fixed_comm_latency + req.latency + r_latency + resp.latency
                 regret = candidates[idx].true_cost - min_cost
                 used_reasoning = True
                 success = regret <= (candidates[det_idx].true_cost - min_cost)

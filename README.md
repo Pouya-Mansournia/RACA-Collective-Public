@@ -23,7 +23,7 @@ Peer-to-peer cognitive delegation produces no measurable benefit in calibrated h
 
 Repeated interaction under an uncalibrated delegation policy produces a real, path-dependent concentration of delegated work. A matched, same-seed control comparison attributes roughly one third of the originally observed concentration to two implementation artifacts (an RNG-seeding pattern and deterministic tie-breaking), not the majority an earlier internal narrative had suggested. The residual that survives these controls is statistically real (non-overlapping confidence intervals against a null model) but does not satisfy this project's own eight-criterion test for emergent collective cognition: it delivers no measurable fleet-level benefit once the routing gate is calibrated.
 
-The V5 source manuscript and a clean Overleaf package are available under `paper/`. This manuscript has not been peer reviewed or accepted for publication.
+The V6 source manuscript and a clean Overleaf package are available under `paper/`. This manuscript has not been peer reviewed or accepted for publication.
 
 ## Architecture
 
@@ -80,7 +80,7 @@ experiments/      per-phase experiment scripts and archived results
 analysis/         result analysis scripts and derived summary tables/figures
 tests/
 reproducibility/  entry point for re-running the experiments and checks
-paper/            V5 manuscript source and clean Overleaf ZIP
+paper/            V6 manuscript source and clean Overleaf ZIP
 ```
 
 ## Quick start
@@ -101,7 +101,7 @@ See `reproducibility/README.md` for setup and the exact commands to re-run each 
 
 ## Citation
 
-The V5 manuscript is a submission draft, not a peer-reviewed publication. Until a publication citation is available, cite the software itself via `CITATION.cff` or the DOI badge above:
+The V6 manuscript is a submission draft, not a peer-reviewed publication. Until a publication citation is available, cite the software itself via `CITATION.cff` or the DOI badge above:
 
 ```bibtex
 @software{mansournia_raca_collective,

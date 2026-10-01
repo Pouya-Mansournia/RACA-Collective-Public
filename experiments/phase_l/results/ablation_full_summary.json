@@ -18,9 +18,9 @@
     "ci_hi": -0.02366361817264999
   },
   "A2_centralized_manager": {
-    "mean_utility": -0.02970992605878947,
-    "ci_lo": -0.039785362460581834,
-    "ci_hi": -0.02366361817264999
+    "mean_utility": -0.5071680520466914,
+    "ci_lo": -0.5102782156558396,
+    "ci_hi": -0.5040683272590332
   },
   "A3_distributed_no_delegation_calibrated": {
     "mean_utility": -0.024953081509716746,

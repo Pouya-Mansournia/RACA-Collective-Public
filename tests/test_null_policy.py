@@ -33,11 +33,9 @@ def test_null_policy_picks_only_available_peers():
             assert peer_id != 3
 
 
-def test_null_policy_ignores_peer_capability_for_target_choice():
-    """Two peers with different (but both good enough that "delegate" clearly beats
-    "self"/"skip" regardless of which one is picked) observed track records should
-    still be chosen with roughly equal frequency under the null model -- target
-    selection must be uniform among available peers, independent of PeerStats."""
+def test_null_policy_keeps_base_delegate_decision_but_randomizes_target():
+    """The null model must preserve whether the base policy delegates at all while
+    making the chosen target roughly uniform among available peers."""
     memory = PeerMemory()
     good = memory.get(1)
     good.n_requests, good.n_responses, good.n_success = 100, 100, 95  # 0.95 success rate
@@ -50,10 +48,13 @@ def test_null_policy_ignores_peer_capability_for_target_choice():
     peer_loads = {1: 0, 2: 0}
     counts = {1: 0, 2: 0}
     policy = NullDelegationPolicy(null_rng_seed=42)
+    base_policy = NullDelegationPolicy(null_rng_seed=999)
     n_trials = 4000
     n_delegate = 0
     for _ in range(n_trials):
+        base_action, _ = base_policy.decide(0, obs, memory, [0, 1, 2], peer_loads)
         action, peer_id = policy.decide(0, obs, memory, [0, 1, 2], peer_loads)
+        assert action == base_action
         if action == "delegate":
             n_delegate += 1
             counts[peer_id] += 1

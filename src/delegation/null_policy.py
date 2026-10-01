@@ -5,13 +5,13 @@ follow-up, see docs/PHASE_7_REPORT.md "Definitive resolution" section).
 expected utility, which is itself a function of that peer's PeerMemory track record --
 i.e. delegation targets are chosen partly on observed capability/history.
 
-`NullDelegationPolicy` answers a different, narrower question: if a robot decides to
-delegate at all (still governed by the same self/skip/delegate expected-utility
-comparison as the real policy, so the DECISION OF WHETHER TO DELEGATE is unchanged), which
-PEER receives the delegation is chosen uniformly at random among peers that are currently
-willing/available (i.e. under the same peer-capacity constraint the real policy respects),
-with NO capability-based and NO memory/history-based selection among them -- a fair coin
-among available peers.
+`NullDelegationPolicy` answers a different, narrower question: keep the same
+self/skip/delegate expected-utility comparison as the real policy, so the DECISION OF
+WHETHER TO DELEGATE is unchanged, but randomize which PEER receives a delegation once
+delegation has already won. The recipient is chosen uniformly at random among peers that
+are currently willing/available (i.e. under the same peer-capacity constraint the real
+policy respects), with NO capability-based and NO memory/history-based selection among
+them -- a fair coin among available peers.
 
 Everything else (task arrival process, battery dynamics, robot count, episode length, the
 artifact-control machinery in experiments/phase_f/run_specialization_revised.py's
@@ -42,18 +42,15 @@ class NullDelegationPolicy(DelegationPolicy):
 
     def decide(self, self_id: int, obs: Observation, peer_memory: PeerMemory, peer_ids: list[int],
                 peer_loads: dict[int, int]) -> tuple[str, int | None]:
-        """Same three-way self/skip/delegate expected-utility comparison as the base
-        policy, but the candidate peer entered into the "delegate" option is drawn
-        uniformly at random from the set of currently-available (under-capacity) peers,
-        never chosen by comparing peers' PeerMemory stats against each other."""
-        options = {"self": self.eu_self(obs), "skip": self.eu_skip(obs)}
+        """Preserve the base policy's delegate/non-delegate decision, then randomize
+        only the target peer if delegation won."""
+        action, real_peer = super().decide(self_id, obs, peer_memory, peer_ids, peer_loads)
+        if action != "delegate":
+            return action, None
+
         available = [pid for pid in peer_ids
                      if pid != self_id and peer_loads.get(pid, 0) < self.peer_capacity]
-        chosen_peer = None
-        if available:
-            chosen_peer = available[int(self._rng.integers(0, len(available)))]
-            options["delegate"] = self.eu_peer(obs, peer_memory.get(chosen_peer))
-        best_action = max(options, key=options.get)
-        if best_action == "delegate":
-            return "delegate", chosen_peer
-        return best_action, None
+        if not available:
+            return "delegate", real_peer
+        chosen_peer = available[int(self._rng.integers(0, len(available)))]
+        return "delegate", chosen_peer

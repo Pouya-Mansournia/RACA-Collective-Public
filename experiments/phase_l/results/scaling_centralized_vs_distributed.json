@@ -1,25 +1,25 @@
 {
   "10": {
     "A2_centralized": {
-      "mean_utility": -0.02619752421628516,
-      "mean_wall_seconds_per_round": 0.0008987292500751209,
-      "messages_per_decision": 2.0
+      "mean_utility": -0.5071617864822299,
+      "mean_wall_seconds_per_round": 0.0015980862494325266,
+      "messages_per_decision": 3.022
     },
     "A3_distributed": {
       "mean_utility": -0.025379817522344524,
-      "mean_wall_seconds_per_round": 0.0010246202497728519,
+      "mean_wall_seconds_per_round": 0.0014497152497642673,
       "messages_per_decision": 0.0
     }
   },
   "50": {
     "A2_centralized": {
-      "mean_utility": -0.016454841709099048,
-      "mean_wall_seconds_per_round": 0.004417764750032802,
-      "messages_per_decision": 2.0
+      "mean_utility": -0.49418225751187206,
+      "mean_wall_seconds_per_round": 0.008689691500039771,
+      "messages_per_decision": 2.814
     },
     "A3_distributed": {
       "mean_utility": -0.015925167033233975,
-      "mean_wall_seconds_per_round": 0.004668382000272686,
+      "mean_wall_seconds_per_round": 0.012800820498669055,
       "messages_per_decision": 0.0
     }
   }
